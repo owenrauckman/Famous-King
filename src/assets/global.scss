@@ -1,0 +1,29 @@
+// ----- Colors ----- //
+$white: rgba(255,255,255,1);
+$black: rgba(0,0,0,1);
+$yellow: #F0C418;
+$brown: #5B4B49;
+$regent-gray: #77878B;
+
+// ----- Fonts ----- //
+$lato: 'Lato', sans-serif;
+$rubik: 'Rubik', sans-serif;
+
+// ----- Resets ----- //
+html, body{
+  margin: 0;
+  font-size: 16px;
+}
+
+// ----- Breakpoints ----- //
+@mixin breakpoint($point) {
+@if $point == phone {
+  @media (min-width: 540px) { @content; }
+ }
+@if $point == tablet {
+  @media (min-width: 768px) { @content; }
+ }
+ @if $point == desktop {
+   @media (min-width: 1024px) { @content; }
+  }
+}
