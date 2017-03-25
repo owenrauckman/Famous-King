@@ -27,3 +27,42 @@ html, body{
    @media (min-width: 1024px) { @content; }
   }
 }
+
+// ----- Mixins ----- //
+@mixin padding(){
+  padding: 0 1rem;
+  @include breakpoint('phone'){
+    padding: 0 2rem;
+  }
+  @include breakpoint('tablet'){
+    padding: 0 4rem;
+  }
+}
+
+
+// ----- Global Styles ----- //
+.fk{
+  &__heading{
+    font-size: 1.25rem;
+    font-family: $lato;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 4rem;
+    &:after{
+      position: absolute;
+      margin-top: 1rem;
+      height: 3px;
+      width: 40px;
+      content: '';
+      display: block;
+    }
+    &--dark{
+      color: $brown;
+      letter-spacing: 2px;
+      &:after{
+        background: $brown;
+      }
+    }
+  }
+}
