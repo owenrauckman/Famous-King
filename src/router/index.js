@@ -5,6 +5,7 @@ import Projects from '@/components/Projects'
 import Team from '@/components/Team'
 import Contact from '@/components/Contact'
 import Donate from '@/components/Donate'
+import Project from '@/components/Project'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
       path: '/donate',
       name: 'Donate',
       component: Donate
+    },
+    {
+      path: '/projects/finding-home',
+      name: 'project',
+      component: Project
     }
   ]
 })

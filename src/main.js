@@ -5,6 +5,11 @@ import App from './App'
 import router from './router'
 import Vuex from 'vuex'
 
+// load jQuery
+global.jQuery = require('jquery');
+var $ = global.jQuery;
+window.$ = $;
+
 
 Vue.config.productionTip = false
 

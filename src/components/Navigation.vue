@@ -105,6 +105,11 @@ export default {
           this.darkMenu = false;
           this.fixedMenu = false;
           break;
+        default:
+          this.pageName = 'Projects';
+          this.darkMenu = false;
+          this.fixedMenu = true;
+          break;
       }
     }
   }

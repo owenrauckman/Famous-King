@@ -99,11 +99,15 @@ export default {
         border-bottom: solid 1px $brown;
         font-family: $lato;
         margin: 1rem 0;
-        font-size: 0.9rem;
         padding-bottom: 1.5rem;
         color: $brown;
         font-style: italic;
         letter-spacing: 0.75px;
+        font-size: 16px;
+        border-radius: 0;
+        @include breakpoint('desktop'){
+          font-size: 0.9rem;
+        }
         &::placeholder{
           color: transparentize($brown, 0.5);
           text-transform: uppercase;
@@ -144,6 +148,11 @@ export default {
         min-height: 100px;
         font-style: italic;
         letter-spacing: 0.75px;
+        font-size: 16px;
+        border-radius: 0;
+        @include breakpoint('desktop'){
+          font-size: 0.9rem;
+        }
         &::placeholder{
           text-transform: uppercase;
           color: transparentize($brown, 0.5);
