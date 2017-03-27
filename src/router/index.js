@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import Landing from '@/components/Landing'
 import Projects from '@/components/Projects'
 import Team from '@/components/Team'
+import Contact from '@/components/Contact'
+import Donate from '@/components/Donate'
 
 Vue.use(Router)
 
@@ -22,6 +24,16 @@ export default new Router({
       path: '/team',
       name: 'Team',
       component: Team
+    },
+    {
+      path: '/contact',
+      name: 'Contact',
+      component: Contact
+    },
+    {
+      path: '/donate',
+      name: 'Donate',
+      component: Donate
     }
   ]
 })
