@@ -5,7 +5,8 @@ import Projects from '@/components/Projects'
 import Team from '@/components/Team'
 import Contact from '@/components/Contact'
 import Donate from '@/components/Donate'
-import Project from '@/components/Project'
+import FindingHome from '@/components/projects/FindingHome'
+import HondurasMinistries from '@/components/projects/HondurasMinistries'
 
 Vue.use(Router)
 
@@ -38,8 +39,13 @@ export default new Router({
     },
     {
       path: '/projects/finding-home',
-      name: 'project',
-      component: Project
+      name: 'findingHome',
+      component: FindingHome
+    },
+    {
+      path: '/projects/honduras-ministries',
+      name: 'hondurasMinistries',
+      component: HondurasMinistries
     }
   ]
 })

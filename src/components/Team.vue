@@ -20,8 +20,13 @@
         <div class="fk__team__member__info">
           <h3 class="fk__team__member__info--name">Derek Hammeke</h3>
           <p class="fk__team__member__info--position">Creative Lead</p>
-          <p class="fk__team__member__info--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus diam sed facilisis varius. Integer id lacus id velit efficitur condimentum. Integer ac sapien eu massa sollicitudin sagittis. Duis eu consequat nisi. Nulla finibus fermentum elementum. Nam id ornare orci, in maximus diam.</p>
-          <p class="fk__team__member__info--description"> nunc eget lacus ornare eleifend. Ut sodales dui non neque maximus dapibus. Nam in aliquet mi, et dictum mauris. In nisl lacus, congue a purus ut, consequat facilisis justo. In id ante consequat</p>
+          <p class="fk__team__member__info--description">Derek Hammeke is an award winning filmmaker, multiple business owner, husband and father.</p>
+          <p class="fk__team__member__info--description">
+            Derek hails from Kansas City, Kansas and received a Bachelor's of Biblical Literature from Ozark Christian College in Joplin, Missouri. Joplin is where Derek currently resides and runs the production company, Flying Treasure LLC. He works for hire on various video projects including commercials, short films, and documentaries. His short films have won various awards and have played at multiple film festivals all over the country.  His full length film Finding Home was accepted to the Cleveland International Film Festival which IndieWire deemed "one of the top 50 festivals in the world."  The film was also accepted onto Netflix in late 2016 and can still currently be viewed on the streaming service.
+          </p>
+
+          <p class="fk__team__member__info--description">Derek is also a co-owner of Amplify Gymnastics a gymnastics facility based in Joplin MO.  The gym was one week from opening when the F5 tornado of 2011 destroyed the building.  After 9 months of rebuilding Amplify opened to twice the original size and was honored by Washington D.C. with the Phoenix award for the year which honored Amplify as The Best Small Business Recovery from a Disaster in the nation.
+          As a filmmaker Derek has had the privilege to work on projects that span the globe, taking him to multiple countries for short and long term work. Derek is an experienced traveler when it comes to location shoots, having filmed in Cambodia, Thailand, Mozambique, Kenya, Poland, Ireland, Chile, DR Congo, South Africa, Honduras, and Japan.</p>
         </div>
       </div>
     </div>

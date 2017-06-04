@@ -11,27 +11,10 @@
         <img class="fk__projects__project__poster" src="../assets/posters/findingHome.jpg"/>
         <h3 class="fk__projects__project__title">Finding Home</h3>
       </router-link>
-      <router-link to="/projects/finding-home" class="fk__projects__project">
-        <img class="fk__projects__project__poster" src="../assets/posters/findingHome.jpg"/>
-        <h3 class="fk__projects__project__title">Finding Home OMG OMG OMG OMG OMGOG</h3>
+      <router-link to="/projects/honduras-ministries" class="fk__projects__project">
+        <img class="fk__projects__project__poster" src="../assets/posters/hondurasMinistries.jpg"/>
+        <h3 class="fk__projects__project__title">Honduras Ministries</h3>
       </router-link>
-      <router-link to="/projects/finding-home" class="fk__projects__project">
-        <img class="fk__projects__project__poster" src="../assets/posters/findingHome.jpg"/>
-        <h3 class="fk__projects__project__title">Finding Home</h3>
-      </router-link>
-      <router-link to="/projects/finding-home" class="fk__projects__project">
-        <img class="fk__projects__project__poster" src="../assets/posters/findingHome.jpg"/>
-        <h3 class="fk__projects__project__title">Finding Home</h3>
-      </router-link>
-      <router-link to="/projects/finding-home" class="fk__projects__project">
-        <img class="fk__projects__project__poster" src="../assets/posters/findingHome.jpg"/>
-        <h3 class="fk__projects__project__title">Finding Home</h3>
-      </router-link>
-      <router-link to="/projects/finding-home" class="fk__projects__project">
-        <img class="fk__projects__project__poster" src="../assets/posters/findingHome.jpg"/>
-        <h3 class="fk__projects__project__title">Finding Home</h3>
-      </router-link>
-
     </div>
 
 

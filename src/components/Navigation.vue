@@ -2,6 +2,7 @@
   <div class="navigation fk__navigation" :class="{ 'fk__navigation--dark': darkMenu, 'fk__navigation--fixed': fixedMenu}">
     <router-link to="/">
       <svg class="fk__navigation__logo" width="100%" height="100%" viewBox="0 0 378 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+          <title>Famous King</title>
           <rect id="Artboard1" x="0" y="0" width="377.108" height="78.666" style="fill:none;"/>
           <clipPath id="_clip1">
               <rect id="Artboard11" x="0" y="0" width="377.108" height="78.666"/>

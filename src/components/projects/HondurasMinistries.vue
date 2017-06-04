@@ -2,14 +2,16 @@
   <div class="project fk__project">
     <div class="fk__project__cover"></div>
     <div class="fk__project__info-container">
-      <img class="fk__project__info__poster" src="../assets/posters/findingHome.jpg"/>
+      <img class="fk__project__info__poster" src="../../assets/posters/hondurasMinistries.jpg"/>
       <div class="fk__project__info">
-        <h2 class="fk__project__info__title">Finding Home Longer Title (ABCD)</h2>
+        <h2 class="fk__project__info__title">Honduras Ministries</h2>
         <p class="fk__project__info__year">2016</p>
-        <p class="fk__project__info__details">Documentary / Derek Hammeke</p>
+        <p class="fk__project__info__details">Promotional / Mini-Documentary</p>
       </div>
     </div>
-    <div class="fk__project__description">Finding Home is a unique documentary about trafficking, as the stories go far beyond the actual trafficking experiences. Finding Home shows in depth the struggle, growth, and challenges that come with trying to pick a life back up after it has been fragmented. Each of these three young women has a unique story with unique hurdles to overcome. The difficulties and complexities of learning how to deal with life after horrific abuse by slave owners and men looking to exploit sex with underage girls are unpacked in a way that communicates cross-culturally and proves the connectivity in the human spirit.</div>
+    <div class="fk__project__description">
+      <p>Honduras Ministries exists to nurture the spiritual and physical needs of the people of Honduras through education, a unique child enrichment program, and rural community development. They operate in the ultra-poor communities throughout rural Honduras; communities that are forgotten, ignored, and abandoned by their government. The people of these communities live on less than $1.50 a day and are among the most impoverished people in the world. Honduras currently ranks as the fourth poorest country in the western hemisphere. Starvation, death from disease, and human trafficking are just some of the realities the people in these communities deal with on a daily basis. Honduras Ministries believes that through their partnership with the local church, they can make a difference.</p>
+    </div>
 
 
     <div class="fk__project__content">
@@ -17,13 +19,14 @@
         <div class="fk__project__content__videos--clip"></div>
         <div class="fk__project__content__videos__container">
           <div class="fk__project__content__videos__playlist">
-            <div class="fk__project__content__videos__playlist__box fk__project__content__videos__playlist__video">
-              <iframe  src="https://www.youtube.com/embed/XQu8TTBmGhA" frameborder="0" allowfullscreen></iframe>
+            <div v-for="video in videos"  v-if="video.active" class="fk__project__content__videos__playlist__box fk__project__content__videos__playlist__video">
+              <iframe :src="video.link" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="fk__project__content__videos__playlist__box fk__project__content__videos__playlist__list">
               <ul>
-                <li class="fk__project__content__videos__playlist__list__item fk__project__content__videos__playlist__list__item--active">Finding Home Trailer</li>
-                <li class="fk__project__content__videos__playlist__list__item">Behind The Scenes: Finding Home</li>
+                <li v-for="video in videos" @click="activateVideo(video)" :class="[{ 'fk__project__content__videos__playlist__list__item--active': video.active},'fk__project__content__videos__playlist__list__item']">
+                  {{video.name}}
+                </li>
               </ul>
             </div>
           </div>
@@ -32,12 +35,12 @@
       <div class="fk__project__content__testimonial">
         <div class="fk__project__content__testimonial__person">
           <div class="fk__project__content__testimonial__person__info">
-            <img class="fk__project__content__testimonial__person__info--photo" src="../assets/team/kent.jpg"/>
+            <img class="fk__project__content__testimonial__person__info--photo" src="../../assets/team/kent.jpg"/>
             <h3 class="fk__project__content__testimonial__person__info--name">Jonathan Doe</h3>
             <p class="fk__project__content__testimonial__person__info--title">Job Title Here</p>
           </div>
           <div class="fk__project__content__testimonial__person--organization">
-            <img src="../assets/projects/finding-home/ab4k.jpg"/>
+            <img src="../../assets/projects/finding-home/ab4k.jpg"/>
           </div>
         </div>
         <div class="fk__project__content__testimonial__quote">
@@ -55,7 +58,14 @@ export default {
   name: 'project',
   data () {
     return {
-      menuType: 'dark'
+      menuType: 'dark',
+      videos: [
+        {
+          name: 'Honduras Ministries: Lucidalia’s Story',
+          link: 'https://player.vimeo.com/video/170888948',
+          active: true,
+        },
+      ]
     }
   },
   mounted(){
@@ -86,6 +96,14 @@ export default {
       // decide where to start the content (ew, gross soluton, but okay)
       $('.fk__project__content').css('top', $('.fk__project__description').offset().top + $('.fk__project__description').outerHeight() + 'px');
 
+    },
+
+    /* activates video in video list */
+    activateVideo(selectedVideo){
+      this.videos.forEach((video)=>{
+        video.active = false;
+      });
+      selectedVideo.active = true;
     }
   }
 }
@@ -93,13 +111,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" >
-  @import "../assets/global.scss";
+  @import "../../assets/global.scss";
   html, body{
     height: 100%;
   }
   .fk__project{
     &__cover{
-      background-image: linear-gradient(to bottom left, transparentize($black, 0.4),transparentize($black, 0.5)), url('../assets/projects/finding-home/cover.jpg');
+      background-image: linear-gradient(to bottom left, transparentize($black, 0.4),transparentize($black, 0.5)), url('../../assets/projects/honduras-ministries/cover.jpg');
       background-size: cover;
       background-position: top;
       height: 300px;
@@ -232,7 +250,7 @@ export default {
             flex-direction: row;
           }
           &__box{
-            padding: 2rem;
+            padding: 2rem 2rem 0 2rem;
             width: calc(100% - 4rem);
             @include breakpoint('tablet'){
               padding: 2rem;
@@ -264,10 +282,11 @@ export default {
               transition: 0.2s background ease-in;
               &--active{
                 border: solid 1px $yellow;
+                background: transparentize($yellow, 0.5);
               }
               &:hover{
-                background: $yellow;
                 border: solid 1px $yellow;
+                background: transparentize($yellow, 0.9);
                 cursor: pointer;
               }
             }
@@ -340,7 +359,7 @@ export default {
           }
         }
         &__quote{
-          background:url('../assets/textureBackground.jpg');
+          background:url('../../assets/textureBackground.jpg');
           background-size: cover;
           color: $brown;
           display: flex;
