@@ -4,6 +4,8 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Vuex from 'vuex'
+import Es6Promise from 'es6-promise'
+Es6Promise.polyfill();
 
 // load jQuery
 global.jQuery = require('jquery');
