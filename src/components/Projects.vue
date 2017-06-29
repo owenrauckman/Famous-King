@@ -15,6 +15,18 @@
         <img class="fk__projects__project__poster" src="../assets/posters/hondurasMinistries.jpg"/>
         <h3 class="fk__projects__project__title">Honduras Ministries</h3>
       </router-link>
+      <router-link to="/projects/flying-treasure" class="fk__projects__project">
+        <img class="fk__projects__project__poster" src="../assets/posters/flyingTreasure.jpg"/>
+        <h3 class="fk__projects__project__title">Flying Treasure</h3>
+      </router-link>
+      <router-link to="/projects/mustard-seed" class="fk__projects__project">
+        <img class="fk__projects__project__poster" src="http://via.placeholder.com/200x300"/>
+        <h3 class="fk__projects__project__title">Mustard Seed</h3>
+      </router-link>
+      <router-link to="/projects/velvet-ashes" class="fk__projects__project">
+        <img class="fk__projects__project__poster" src="http://via.placeholder.com/200x300"/>
+        <h3 class="fk__projects__project__title">Velvet Ashes</h3>
+      </router-link>
     </div>
 
 

@@ -3,17 +3,11 @@
     <div class="fk__donate__bg"></div>
     <div class="fk__donate__box">
       <h2 class="fk__heading fk__heading--light fk__donate__heading">Make a Donation</h2>
-      <p class="fk__donate__box__copy">This is some filler text explaining where your donation will go and how it will be used. This is just some more text to take up space.</p>
-      <p class="fk__donate__box__copy">Not able to make a contribution but still want to support Famous King? Contact Us to see how you can get involved!</p>
+      <p class="fk__donate__box__copy">Famous King is beginning to make an impact and plans to focus full-time creative talent on the task of making God famous. Our goal is to raise over $100k in this first year of operation... we have $10k designated as matching funds already committed to this campaign.</p>
     </div>
     <div class="fk__donate__box fk__donate__box--white">
       <form class="fk__donate__form">
-        <input class="fk__donate__form__input fk__donate__form__input--amount" type="text" placeholder="$50.00">
-        <input class="fk__donate__form__input" type="text" placeholder="Full Name / Organization">
-        <input class="fk__donate__form__input" type="email" placeholder="Email Address">
-        <input class="fk__donate__form__input" type="text" placeholder="Credit Card Number">
-        <input class="fk__donate__form__input" type="text" placeholder="Exp Date / CVC">
-        <button class="fk__donate__form__button" type="submit">Make Donation</button>
+        <iframe src="https://donorbox.org/embed/new-beginnings-for-famous-king?recurring=true" height="685px" width="100%" style="max-width:500px; min-width:310px; max-height:none!important" seamless="seamless" id="dbox-form-embed" name="donorbox" frameborder="0" scrolling="no"></iframe>
       </form>
     </div>
 
@@ -71,7 +65,7 @@ export default {
         box-shadow: 0px 0px 20px transparentize($black, 0.8);
         background: transparentize($white, 0.1);
         border-radius: 10px;
-        padding: 2rem;
+        padding: 1rem;
       }
       &__copy{
         font-weight: 400;

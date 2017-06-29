@@ -2,15 +2,15 @@
   <div class="project fk__project">
     <div class="fk__project__cover"></div>
     <div class="fk__project__info-container">
-      <img class="fk__project__info__poster" src="../../assets/posters/hondurasMinistries.jpg"/>
+      <img class="fk__project__info__poster" src="../../assets/posters/flyingTreasure.jpg"/>
       <div class="fk__project__info">
-        <h2 class="fk__project__info__title">Honduras Ministries</h2>
-        <p class="fk__project__info__year">2016</p>
-        <p class="fk__project__info__details">Promotional / Mini-Documentary</p>
+        <h2 class="fk__project__info__title">Flying Treasure</h2>
+        <p class="fk__project__info__year">2014-2017</p>
+        <p class="fk__project__info__details">Promotional/Mini-Documentary</p>
       </div>
     </div>
     <div class="fk__project__description">
-      <p>Honduras Ministries exists to nurture the spiritual and physical needs of the people of Honduras through education, a unique child enrichment program, and rural community development. They operate in the ultra-poor communities throughout rural Honduras; communities that are forgotten, ignored, and abandoned by their government. The people of these communities live on less than $1.50 a day and are among the most impoverished people in the world. Honduras currently ranks as the fourth poorest country in the western hemisphere. Starvation, death from disease, and human trafficking are just some of the realities the people in these communities deal with on a daily basis. Honduras Ministries believes that through their partnership with the local church, they can make a difference.</p>
+      <p>Flying Treasure is a for profit company ran by Derek Hammeke, the creative lead of Famous King.  Derek has been working for many years doing various video production projects for his company.  Many of these projects are ministry based projects where he works with churches, para-church organizations and other non-profits that are pursing to make Jesus Famous.</p>
     </div>
 
 
@@ -35,15 +35,15 @@
       <div class="fk__project__content__testimonial">
         <div class="fk__project__content__testimonial__person">
           <div class="fk__project__content__testimonial__person__info">
-            <img class="fk__project__content__testimonial__person__info--photo" src="../../assets/projects/honduras-ministries/hondurasMinistriesTestimonial.jpg"/>
-            <h3 class="fk__project__content__testimonial__person__info--name">John Beddall</h3>
-            <h3 class="fk__project__content__testimonial__person__info--title">Honduras Ministries</h3>
+            <img class="fk__project__content__testimonial__person__info--photo" src="../../assets/projects/flying-treasure/flyingTreasureTestimonial.jpg"/>
+            <h3 class="fk__project__content__testimonial__person__info--name">MD Neely</h3>
+            <h3 class="fk__project__content__testimonial__person__info--title">CIY Video Director</h3>
           </div>
 
         </div>
         <div class="fk__project__content__testimonial__quote">
           <h3 class="fk__project__content__testimonial__quote__heading">Client Testimonial</h3>
-          <p class="fk__project__content__testimonial__quote__copy">Working with Famous King was an amazing experience from start to finish. Derek’s creativity and passion for his art form showed in every aspect of production. Being able to work with Famous King has given our ministry a wonderful tool that has already aided us in fundraising and exposing partnering organizations to our ministry. We will, without a doubt, be working with them again soon!</p>
+          <p class="fk__project__content__testimonial__quote__copy">Derek's understanding of the language of cinema and his efficiency as an editor and cinematographer are excellent. He is a problem solver and works with a positive, team oriented attitude. Derek has become a trusted collaborator. As a cinematographer, he understands visual storytelling and emotion. On our most challenging projects he is my first choice as editor. I highly recommend him.</p>
         </div>
       </div>
     </div>
@@ -59,9 +59,29 @@ export default {
       menuType: 'dark',
       videos: [
         {
-          name: 'Honduras Ministries: Lucidalia’s Story',
-          link: 'https://player.vimeo.com/video/170888948',
+          name: 'CIY - Aullido - Short Narrative Film',
+          link: 'https://player.vimeo.com/video/128621690',
           active: true,
+        },
+        {
+          name: 'Christ in Youth - Ruby - Short Documentary Film',
+          link: 'https://player.vimeo.com/video/98465957',
+          active: false,
+        },
+        {
+          name: 'Christ in Youth - Unseen - Short Narrative Film',
+          link: 'https://player.vimeo.com/video/219902386',
+          active: false,
+        },
+        {
+          name: 'First Church Verdigris - Promotional',
+          link: 'https://player.vimeo.com/video/138999597',
+          active: false,
+        },
+        {
+          name: 'First Church - Wes - Testimony',
+          link: 'https://player.vimeo.com/video/124335519',
+          active: false,
         },
       ]
     }

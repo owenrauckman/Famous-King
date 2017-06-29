@@ -45,7 +45,7 @@
         <li><router-link to="/projects">Projects</router-link></li>
         <li><router-link to="/team">Team</router-link></li>
         <li><router-link to="/donate">Donate</router-link></li>
-        <li><router-link to="/contact">Contact</router-link></li>
+        <li><router-link to="/mission">Mission</router-link></li>
       </ul>
     </nav>
   </div>
@@ -101,8 +101,8 @@ export default {
           this.darkMenu = false;
           this.fixedMenu = false;
           break;
-        case '/contact':
-          this.pageName = 'Contact';
+        case '/mission':
+          this.pageName = 'Mission';
           this.darkMenu = false;
           this.fixedMenu = false;
           break;

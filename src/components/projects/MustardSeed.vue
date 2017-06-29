@@ -2,15 +2,15 @@
   <div class="project fk__project">
     <div class="fk__project__cover"></div>
     <div class="fk__project__info-container">
-      <img class="fk__project__info__poster" src="../../assets/posters/hondurasMinistries.jpg"/>
+      <img class="fk__project__info__poster" src="http://via.placeholder.com/200x300"/>
       <div class="fk__project__info">
-        <h2 class="fk__project__info__title">Honduras Ministries</h2>
-        <p class="fk__project__info__year">2016</p>
-        <p class="fk__project__info__details">Promotional / Mini-Documentary</p>
+        <h2 class="fk__project__info__title">Mustard Seed Network</h2>
+        <p class="fk__project__info__year">2017</p>
+        <p class="fk__project__info__details">Promotional</p>
       </div>
     </div>
     <div class="fk__project__description">
-      <p>Honduras Ministries exists to nurture the spiritual and physical needs of the people of Honduras through education, a unique child enrichment program, and rural community development. They operate in the ultra-poor communities throughout rural Honduras; communities that are forgotten, ignored, and abandoned by their government. The people of these communities live on less than $1.50 a day and are among the most impoverished people in the world. Honduras currently ranks as the fourth poorest country in the western hemisphere. Starvation, death from disease, and human trafficking are just some of the realities the people in these communities deal with on a daily basis. Honduras Ministries believes that through their partnership with the local church, they can make a difference.</p>
+      <p>Mustard Seed Network exists to glorify God by making disciples through planting gospel-centered churches in urban Japan.    To see the cities of Japan saturated with and impacted by gospel-centered churches that further the global cause of Jesus Christ.  Their goal is to recruit and train church planters, catalyze church plants, and support church planters and church plants.</p>
     </div>
 
 
@@ -35,15 +35,16 @@
       <div class="fk__project__content__testimonial">
         <div class="fk__project__content__testimonial__person">
           <div class="fk__project__content__testimonial__person__info">
-            <img class="fk__project__content__testimonial__person__info--photo" src="../../assets/projects/honduras-ministries/hondurasMinistriesTestimonial.jpg"/>
-            <h3 class="fk__project__content__testimonial__person__info--name">John Beddall</h3>
-            <h3 class="fk__project__content__testimonial__person__info--title">Honduras Ministries</h3>
+            <img class="fk__project__content__testimonial__person__info--photo" src="../../assets/projects/mustard-seed/mustardSeedTestimonial.jpg"/>
+            <h3 class="fk__project__content__testimonial__person__info--name">Jay Greer</h3>
+            <h3 class="fk__project__content__testimonial__person__info--title">Pastor at Mustard Seed Christian Church Osaka</h3>
+            <h3 class="fk__project__content__testimonial__person__info--title">President of Mustard Seed Network</h3>
           </div>
 
         </div>
         <div class="fk__project__content__testimonial__quote">
           <h3 class="fk__project__content__testimonial__quote__heading">Client Testimonial</h3>
-          <p class="fk__project__content__testimonial__quote__copy">Working with Famous King was an amazing experience from start to finish. Derek’s creativity and passion for his art form showed in every aspect of production. Being able to work with Famous King has given our ministry a wonderful tool that has already aided us in fundraising and exposing partnering organizations to our ministry. We will, without a doubt, be working with them again soon!</p>
+          <p class="fk__project__content__testimonial__quote__copy">Famous King has blessed our ministry with high-quality videos that we wouldn't have been able to afford without the amazing financial partnership program of Famous King. Having seen Derek's work in the past I knew we would get a fantastic, professional product. However, I was further impressed by the way Derek came and learned our ministry. He represented us, our vision, our values, and our mission in a way that captured the heart of what we do. We're thankful for the impact Famous King has made both in our target group in Japan and on our supporters around the world.</p>
         </div>
       </div>
     </div>
@@ -59,9 +60,24 @@ export default {
       menuType: 'dark',
       videos: [
         {
-          name: 'Honduras Ministries: Lucidalia’s Story',
-          link: 'https://player.vimeo.com/video/170888948',
+          name: 'Mustard Seed Network Promotional',
+          link: 'https://player.vimeo.com/video/221628499',
           active: true,
+        },
+        {
+          name: 'Mustard Seed Kobe Church',
+          link: 'https://player.vimeo.com/video/221638245',
+          active: false,
+        },
+        {
+          name: 'Mustard Seed Osaka Church',
+          link: '',
+          active: false,
+        },
+        {
+          name: 'Mustard Seed Nagoya Church',
+          link: '',
+          active: false,
         },
       ]
     }

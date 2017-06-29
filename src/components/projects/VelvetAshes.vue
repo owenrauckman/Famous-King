@@ -2,15 +2,15 @@
   <div class="project fk__project">
     <div class="fk__project__cover"></div>
     <div class="fk__project__info-container">
-      <img class="fk__project__info__poster" src="../../assets/posters/hondurasMinistries.jpg"/>
+      <img class="fk__project__info__poster" src="http://via.placeholder.com/200x300"/>
       <div class="fk__project__info">
-        <h2 class="fk__project__info__title">Honduras Ministries</h2>
-        <p class="fk__project__info__year">2016</p>
-        <p class="fk__project__info__details">Promotional / Mini-Documentary</p>
+        <h2 class="fk__project__info__title">Velvet Ashes</h2>
+        <p class="fk__project__info__year">2016-2017</p>
+        <p class="fk__project__info__details">Promotional - Retreat Content</p>
       </div>
     </div>
     <div class="fk__project__description">
-      <p>Honduras Ministries exists to nurture the spiritual and physical needs of the people of Honduras through education, a unique child enrichment program, and rural community development. They operate in the ultra-poor communities throughout rural Honduras; communities that are forgotten, ignored, and abandoned by their government. The people of these communities live on less than $1.50 a day and are among the most impoverished people in the world. Honduras currently ranks as the fourth poorest country in the western hemisphere. Starvation, death from disease, and human trafficking are just some of the realities the people in these communities deal with on a daily basis. Honduras Ministries believes that through their partnership with the local church, they can make a difference.</p>
+      <p>We are an online community of women serving overseas.  Velvet Ashes is here to connect the hearts of women who are separated by geography but bound together by the life of serving overseas.  It’s a place where we can link arms with one another and grab hold of the promise of Him who said, “I will give you a full life in the {seemingly} emptiest of places.” (Isaiah 58:11)</p>
     </div>
 
 
@@ -35,15 +35,16 @@
       <div class="fk__project__content__testimonial">
         <div class="fk__project__content__testimonial__person">
           <div class="fk__project__content__testimonial__person__info">
-            <img class="fk__project__content__testimonial__person__info--photo" src="../../assets/projects/honduras-ministries/hondurasMinistriesTestimonial.jpg"/>
-            <h3 class="fk__project__content__testimonial__person__info--name">John Beddall</h3>
-            <h3 class="fk__project__content__testimonial__person__info--title">Honduras Ministries</h3>
+            <img class="fk__project__content__testimonial__person__info--photo" src="../../assets/projects/velvet-ashes/velvetAshesTestimonial.jpg"/>
+            <h3 class="fk__project__content__testimonial__person__info--name">Danielle Wheeler</h3>
+            <h3 class="fk__project__content__testimonial__person__info--title">Founder of Velvet Ashes</h3>
           </div>
 
         </div>
         <div class="fk__project__content__testimonial__quote">
           <h3 class="fk__project__content__testimonial__quote__heading">Client Testimonial</h3>
-          <p class="fk__project__content__testimonial__quote__copy">Working with Famous King was an amazing experience from start to finish. Derek’s creativity and passion for his art form showed in every aspect of production. Being able to work with Famous King has given our ministry a wonderful tool that has already aided us in fundraising and exposing partnering organizations to our ministry. We will, without a doubt, be working with them again soon!</p>
+          <p class="fk__project__content__testimonial__quote__copy">With the help of Famous King, our ministry created an online retreat experience that touched over 1,000 women who are serving Jesus in 91 countries. These women received encouragement, community and renewal through the videos of this retreat experience, and were empowered for the kingdom work that God has called them to. Women described the retreat as an anchor for their souls, and are eagerly awaiting the next retreat!
+          </br></br>Famous King’s videography has taken our ministry to a whole new level. With high quality videos, our network and support base has multiplied. The videographer is amazing to work with. He’s extremely talented at what he does and has huge heart to help our ministry. He enabled us to communicate our message in an artistic, professional way that people find deeply moving. We are constantly asked, “Wow, who does your videos?”</p>
         </div>
       </div>
     </div>
@@ -59,9 +60,19 @@ export default {
       menuType: 'dark',
       videos: [
         {
-          name: 'Honduras Ministries: Lucidalia’s Story',
-          link: 'https://player.vimeo.com/video/170888948',
+          name: 'Velvet Ashes 2017 Retreat Promo',
+          link: 'https://player.vimeo.com/video/218060178',
           active: true,
+        },
+        {
+          name: 'Velvet Ashes Donation Promo',
+          link: 'https://player.vimeo.com/video/218057383',
+          active: false,
+        },
+        {
+          name: 'Velvet Ashes - A Night at the Grove',
+          link: 'https://player.vimeo.com/video/221778065',
+          active: false,
         },
       ]
     }

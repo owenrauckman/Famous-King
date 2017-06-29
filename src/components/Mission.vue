@@ -2,9 +2,9 @@
   <div class="contact fk__contact">
     <div class="fk__contact__bg"></div>
     <div class="fk__contact__box">
-      <h2 class="fk__heading fk__heading--light fk__contact__heading">Get Connected</h2>
-      <p class="fk__contact__box__copy">This is some filler text explaining what its like to contact us blah blah. Our email address is info@famousking.com. You can also reach us at (913) 123-4567.</p>
-      <p class="fk__contact__box__copy">Send us an email if you are interested in a screening or whatever. Follow us on any of the social networks listed below for the latest Famous King updates.</p>
+      <h2 class="fk__heading fk__heading--light fk__contact__heading">Our Mission</h2>
+      <p class="fk__contact__box__copy">Famous King's mission is to share who the one true God is to the world and to help make him Famous by using film and creative media.</p>
+      <p class="fk__contact__box__copy">The vision of Famous King is to help make God famous throughout the world by using creative media arts in engaging ways. Such projects would be promotional videos for non-profit organizations who are actively expressing who God is through their existing work, documentaries expressing characteristics of God and how he works with his people, as well as Narrative works of fiction that help express God's characteristics and Truth in the lives of his people.</p>
       <ul class="fk__contact__social">
         <li class="fk__contact__social__icon">
           <a href="https://www.facebook.com/famouskinginc">
@@ -48,7 +48,7 @@
 
 <script>
 export default {
-  name: 'contact',
+  name: 'mission',
   data () {
     return {
       menuType: 'light'

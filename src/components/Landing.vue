@@ -104,7 +104,8 @@ export default {
       height: 50px;
       width: 50px;
       position: relative;
-      display: block;
+      // display: block;
+      display: none; // todo change this later
       margin: 2rem auto 0 auto;
       @include breakpoint('tablet'){
         position: absolute;
