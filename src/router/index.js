@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Landing from '@/components/Landing'
 import Projects from '@/components/Projects'
-import Team from '@/components/Team'
+import Contact from '@/components/Contact'
 import Mission from '@/components/Mission'
 import Donate from '@/components/Donate'
 import FindingHome from '@/components/projects/FindingHome'
@@ -14,6 +14,7 @@ import FlyingTreasure from '@/components/projects/FlyingTreasure'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
@@ -26,9 +27,9 @@ export default new Router({
       component: Projects
     },
     {
-      path: '/team',
-      name: 'Team',
-      component: Team
+      path: '/contact',
+      name: 'Contact',
+      component: Contact
     },
     {
       path: '/mission',

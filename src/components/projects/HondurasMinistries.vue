@@ -204,6 +204,7 @@ export default {
       padding: 1rem;
       left: 0;
       max-width: 500px;
+      z-index: +9999;
       @include breakpoint('phone'){
         padding: 2rem;
         left: calc(200px + 3rem);
@@ -237,6 +238,7 @@ export default {
           padding-bottom: 4rem !important;
         }
         &__playlist{
+          max-width: 1024px;
           box-shadow: 0px 0px 20px transparentize($black, 0.8);
           border-radius: 10px;
           min-height: 300px;

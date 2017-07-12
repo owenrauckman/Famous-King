@@ -20,11 +20,11 @@
         <h3 class="fk__projects__project__title">Flying Treasure</h3>
       </router-link>
       <router-link to="/projects/mustard-seed" class="fk__projects__project">
-        <img class="fk__projects__project__poster" src="http://via.placeholder.com/200x300"/>
+        <img class="fk__projects__project__poster" src="../assets/posters/placeholder.jpg"/>
         <h3 class="fk__projects__project__title">Mustard Seed</h3>
       </router-link>
       <router-link to="/projects/velvet-ashes" class="fk__projects__project">
-        <img class="fk__projects__project__poster" src="http://via.placeholder.com/200x300"/>
+        <img class="fk__projects__project__poster" src="../assets/posters/placeholder.jpg"/>
         <h3 class="fk__projects__project__title">Velvet Ashes</h3>
       </router-link>
     </div>
@@ -60,7 +60,7 @@ export default {
         left: 0;
         top: 0;
         width: 100%;
-        min-height: 400px;
+        min-height: 60vh;
       }
       &--orange{
         height: 100%;
@@ -103,6 +103,10 @@ export default {
       &__poster{
         height: 300px;
         width: 200px;
+        @include breakpoint('desktop'){
+          height: 30vw;
+          width: 20vw;
+        }
         border-radius: 10px;
         box-shadow: 0px 0px 20px transparentize($black, 0.8);
         transition: box-shadow 0.2s ease-out;
@@ -114,6 +118,9 @@ export default {
         text-transform: uppercase;
         color: $white;
         letter-spacing: 1px;
+        @include breakpoint('desktop'){
+          font-size: 1.2vw;
+        }
       }
       &:hover{
         transform-origin: center center;

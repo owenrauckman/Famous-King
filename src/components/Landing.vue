@@ -66,21 +66,25 @@ export default {
       letter-spacing: 4px;
       text-align: center;
       font-size: 1.75rem;
+      @include breakpoint('desktop'){
+        font-size: 3vw;
+      }
     }
     &__copy{
       font-family: $lato;
       font-weight: 400;
       font-style: italic;
       color: transparentize($white, 0.3);
-      font-size: 1rem;
       letter-spacing: 0.05px;
       text-align: center;
       padding: 0 0 1rem 0;
+      font-size: 1rem;
+      @include breakpoint('desktop'){
+        font-size: 1.75vw;
+      }
     }
     &__cta{
-      max-width: 140px;
       text-decoration: none;
-      font-size: 0.75rem;
       border: none;
       outline: none;
       background: $yellow;
@@ -95,6 +99,12 @@ export default {
       display: block;
       margin: 0 auto;
       transition: 0.2s ease-in box-shadow;
+      font-size: 0.75rem;
+      max-width: 140px;
+      @include breakpoint('desktop'){
+        font-size: 1vw;
+        max-width: 15vw;
+      }
       &:hover{
         cursor: pointer;
         box-shadow: 0px 0px 20px transparentize($black, 0.5);

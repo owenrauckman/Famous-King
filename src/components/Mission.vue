@@ -1,48 +1,48 @@
 <template>
-  <div class="contact fk__contact">
-    <div class="fk__contact__bg"></div>
-    <div class="fk__contact__box">
-      <h2 class="fk__heading fk__heading--light fk__contact__heading">Our Mission</h2>
-      <p class="fk__contact__box__copy">Famous King's mission is to share who the one true God is to the world and to help make him Famous by using film and creative media.</p>
-      <p class="fk__contact__box__copy">The vision of Famous King is to help make God famous throughout the world by using creative media arts in engaging ways. Such projects would be promotional videos for non-profit organizations who are actively expressing who God is through their existing work, documentaries expressing characteristics of God and how he works with his people, as well as Narrative works of fiction that help express God's characteristics and Truth in the lives of his people.</p>
-      <ul class="fk__contact__social">
-        <li class="fk__contact__social__icon">
-          <a href="https://www.facebook.com/famouskinginc">
-            <img src="../assets/social/facebook.svg"/>
-          </a>
-        </li>
-        <li class="fk__contact__social__icon">
-          <a href="https://www.instagram.com/famouskinginc">
-            <img src="../assets/social/instagram.svg"/>
-          </a>
-        </li>
-        <li class="fk__contact__social__icon">
-          <a href="https://www.twitter.com/famouskinginc">
-            <img src="../assets/social/twitter.svg"/>
-          </a>
-        </li>
-        <li class="fk__contact__social__icon">
-          <a href="https://www.medium.com/famouskinginc">
-            <img src="../assets/social/medium.svg"/>
-          </a>
-        </li>
-        <li class="fk__contact__social__icon">
-          <a href="https://www.youtube.com/famouskinginc">
-            <img src="../assets/social/youtube.svg"/>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="fk__contact__box fk__contact__box--white">
-      <form class="fk__contact__form">
-        <input class="fk__contact__form__input" type="text" placeholder="Name / Organization">
-        <input class="fk__contact__form__input" type="email" placeholder="Email Address">
-        <textarea class="fk__contact__form__textarea" placeholder="Type your message here..."></textarea>
-        <button class="fk__contact__form__button" type="submit">Send Email</button>
-      </form>
+  <div class="team fk__team">
+    <div class="fk__team__bg--texture"></div>
+    <div class="fk__team__bg--orange"></div>
+    <div class="fk__team__gradient"></div>
+    <h2 class="fk__heading fk__heading--dark fk__team__heading">Our Mission</h2>
+
+    <div class="fk__team__container">
+      <div class="fk__team__info">
+        <p class="fk__team__info__copy">Famous King's mission is to share who the one true God is to the world and to help make him Famous by using film and creative media.</p>
+        <p class="fk__team__info__copy">The vision of Famous King is to help make God famous throughout the world by using creative media arts in engaging ways. Such projects would be promotional videos for non-profit organizations who are actively expressing who God is through their existing work, documentaries expressing characteristics of God and how he works with his people, as well as Narrative works of fiction that help express God's characteristics and Truth in the lives of his people.</p>
+      </div>
+      <div class="fk__team__member">
+        <img class="fk__team__member__head" src="../assets/team/kent.jpg"/>
+        <a class="fk__team__member__email" href="mailto:kent.broddle@famousking.com">
+          <img class="fk__team__member__email--icon" src="../assets/mail.svg"/>
+        </a>
+        <div class="fk__team__member__info">
+          <h3 class="fk__team__member__info--name">Kent Broddle</h3>
+          <p class="fk__team__member__info--position">CEO</p>
+          <p class="fk__team__member__info--description">Kent Broddle has worked at Garmin International for the last 25 years as a software engineer and engineering leader. He has been assigned to many interesting products including automotive infotainment, mobile phones, digital radios, GPS equipped PDAs, aviation navigation devices, and GPS surveying equipment. His travels have taken him to many leading cultural centers such as London, Beijing, Shanghai, Taipei, and Barcelona. Kent has been an integral part of this world-wide, world-class company and has learned valuable lessons in product development, process structure, and large team organization.</p>
+          <p class="fk__team__member__info--description">
+Kent’s passion for starting Famous King started while travelling internationally. During one of the long flights to-from Taipei, God provided overwhelming inspiration to startup a film company whose mission would be to make Him famous. After many conversations and much soul searching, a team began to form that shared much of this same passion. Several years later, God has guided us to this tipping point… we want to share who the one true God is to the world and to help make him Famous by using film and creative media. </p>
+          <p class="fk__team__member__info--description">Kent has been married to his wife, Tonya, for 30 years. They have 3 children, Jared (26) married to Christen who live and work in Los Angeles, Sarah (24) now teaching middle school Science in DeSoto, Kansas, and Rachel (22) continuing her college studies this year at Kansas State University. Kent and Tonya have been serving at Foundry Church in Lenexa, Kansas for the last 20 years. Both serve in the children’s ministry and help as marriage mentors. Kent has served as elder at Foundry over the past several years and has joined in on several short term trips to Poland, Honduras, Kenya, and Ethiopia. During his free time Kent enjoys many activities and hobbies including basketball, softball, biking, playing games, watching sports, and spending time with family and friends.</p>
+        </div>
+      </div>
+      <div class="fk__team__member">
+        <img class="fk__team__member__head" src="../assets/team/derek.jpg"/>
+        <a class="fk__team__member__email" href="mailto:derek.hammeke@famousking.com">
+          <img class="fk__team__member__email--icon" src="../assets/mail.svg"/>
+        </a>
+        <div class="fk__team__member__info">
+          <h3 class="fk__team__member__info--name">Derek Hammeke</h3>
+          <p class="fk__team__member__info--position">Creative Lead</p>
+          <p class="fk__team__member__info--description">Derek Hammeke is an award winning filmmaker, multiple business owner, husband and father.</p>
+          <p class="fk__team__member__info--description">
+            Derek hails from Kansas City, Kansas and received a Bachelor's of Biblical Literature from Ozark Christian College in Joplin, Missouri. Joplin is where Derek currently resides and runs the production company, Flying Treasure LLC. He works for hire on various video projects including commercials, short films, and documentaries. His short films have won various awards and have played at multiple film festivals all over the country.  His full length film Finding Home was accepted to the Cleveland International Film Festival which IndieWire deemed "one of the top 50 festivals in the world."  The film was also accepted onto Netflix in late 2016 and can still currently be viewed on the streaming service.
+          </p>
+
+          <p class="fk__team__member__info--description">Derek is also a co-owner of Amplify Gymnastics a gymnastics facility based in Joplin MO.  The gym was one week from opening when the F5 tornado of 2011 destroyed the building.  After 9 months of rebuilding Amplify opened to twice the original size and was honored by Washington D.C. with the Phoenix award for the year which honored Amplify as The Best Small Business Recovery from a Disaster in the nation.
+          As a filmmaker Derek has had the privilege to work on projects that span the globe, taking him to multiple countries for short and long term work. Derek is an experienced traveler when it comes to location shoots, having filmed in Cambodia, Thailand, Mozambique, Kenya, Poland, Ireland, Chile, DR Congo, South Africa, Honduras, and Japan.</p>
+        </div>
+      </div>
     </div>
 
-    </div>
   </div>
 </template>
 
@@ -51,11 +51,8 @@ export default {
   name: 'mission',
   data () {
     return {
-      menuType: 'light'
+      menuType: 'dark'
     }
-  },
-  beforeMount(){
-    this.$store.commit('setMenuType', this.menuType);
   }
 }
 </script>
@@ -63,170 +60,136 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" >
   @import "../assets/global.scss";
-
   html, body{
     height: 100%;
   }
-  .fk__contact{
-    position: relative;
-    display: flex;
-    align-items: flex-start;
-    height: auto;
-    @include padding();
-    flex-wrap: wrap;
-    &__box{
-      width: 100%;
-      @include breakpoint('desktop'){
-        width: calc(50% - 1rem);
+  .fk__team{
+    &__bg{
+      &--texture{
+        clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0% 100%);
+        background:url('../assets/textureBackground.jpg');
+        background-size: cover;
+        position: absolute;;
+        left: 0;
+        top: 0;
+        width: 100%;
+        min-height: 400px;
       }
-      &:first-child{
-        margin: 2rem 0;
-        @include breakpoint('desktop'){
-          margin: 2rem 2rem 2rem 0;
-        }
-      }
-      &:last-child{
-        margin: 2rem 0;
-        @include breakpoint('desktop'){
-          margin: 2rem 0 2rem 2rem;
-          width: calc(50% - 5rem);
-        }
-      }
-      &--white{
-        box-shadow: 0px 0px 20px transparentize($black, 0.8);
-        background: transparentize($white, 0.1);
-        border-radius: 10px;
-        padding: 2rem;
-      }
-      &__copy{
-        font-weight: 400;
-        font-family: $rubik;
-        font-style: italic;
-        color: $white;
-        line-height: 1.2rem;
-        font-size: 0.9rem;
+      &--orange{
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        left: 0; top: 0;
+        background: linear-gradient(to bottom right, #F0C418, #F1A346);
+        z-index: -1;
       }
     }
     &__heading{
-      margin-left: 0;
-      margin-bottom: 3rem;
+      @include padding();
+      margin-bottom: 2rem !important; //mixin override
     }
-    &__form{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      margin: 2rem 0;
-      &__input{
-        width: 100%;
-        max-width: 300px;
-        background: transparent;
-        border: none;
-        border-bottom: solid 1px $brown;
-        font-family: $lato;
-        margin: 1rem 0;
-        padding-bottom: 1.5rem;
-        color: $brown;
-        font-style: italic;
-        letter-spacing: 0.75px;
-        font-size: 16px;
-        border-radius: 0;
-        @include breakpoint('desktop'){
-          font-size: 0.9rem;
-        }
-        &::placeholder{
-          color: transparentize($brown, 0.5);
-          text-transform: uppercase;
-        }
-        &:focus{
-          outline: none;
-          border: none;
-          border-bottom: solid 2px $yellow;
-          font-style: normal;
-        }
-      }
-      &__textarea{
-        font-family: $lato;
-        background: transparent;
-        border: none;
-        border-bottom: solid 1px $brown;
-        color: $brown;
-        margin: 2rem 0;
-        min-height: 100px;
-        font-style: italic;
-        letter-spacing: 0.75px;
-        font-size: 16px;
-        border-radius: 0;
-        @include breakpoint('desktop'){
-          font-size: 0.9rem;
-        }
-        &::placeholder{
-          text-transform: uppercase;
-          color: transparentize($brown, 0.5);
-
-        }
-        &:focus{
-          outline: none;
-          border-bottom: solid 2px $yellow;
-          font-style: normal;
-          color: $brown;
-        }
-      }
-      &__button{
-        max-width: 200px;
-        text-decoration: none;
-        font-size: 0.75rem;
-        border: none;
-        outline: none;
-        background: $yellow;
-        padding: 1rem 2rem;
-        border-radius: 5px;
-        font-family: $lato;
-        color: $brown;
-        text-transform: uppercase;
-        text-align: center;
-        letter-spacing: 1px;
-        font-weight: 900;
-        display: block;
-        margin: 0;
-        transition: 0.2s ease-in box-shadow;
-        &:hover{
-          cursor: pointer;
-          box-shadow: 0px 0px 20px transparentize($black, 0.9);
-        }
-      }
-    }
-    &__social{
-      list-style: none;
-      padding: 0;
+    &__container{
+      position: relative;
+      @include padding();
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+    }
+    &__info{
+      background: $white;
+      box-shadow: 0px 0px 20px transparentize($black, 0.8);
+      border-radius: 10px;
+      width: 100%;
       margin: 2rem 0 0 0;
       @include breakpoint('desktop'){
-        justify-content: flex-start;
+        margin: 2rem 0;
       }
-      &__icon{
-        height: 50px;
-        width: 50px;
-        margin: 0.5rem 2rem;
+      &__copy{
+        font-family: $lato;
+        color: $brown;
+        margin: 2rem;
+        font-size: 1rem;
         @include breakpoint('desktop'){
-          margin: 0.5rem 1rem;
-          &:first-child{
-            margin-left: 0;
+          font-size: 1.5vw;
+          text-align: left;
+        }
+      }
+    }
+    &__member{
+      position: relative;
+      margin: calc((180px / 2) + 4rem) 0rem 0 0rem;
+      width: 100%;
+      background: $white;
+      box-shadow: 0px 0px 20px transparentize($black, 0.8);
+      border-radius: 10px;
+      min-height: 300px;
+      @include breakpoint('desktop'){
+        width: calc(50% - 3rem);
+        &:nth-child(odd){
+          margin: 2rem 0rem 2rem 4rem;
+        }
+        &:nth-child(even){
+          margin: 2rem 1rem 2rem 1rem;
+        }
+      }
+      &__head{
+        height: 180px;
+        width: 135px;
+        box-shadow: 0px 0px 20px transparentize($black, 0.8);
+        border-radius: 10px;
+        position: absolute;
+        left: 0; right: 0;
+        margin: 0 auto;
+        top: calc(-180px / 2);
+        @include breakpoint('desktop'){
+          margin: 0;
+          top: -1rem;
+          left: -1rem;
+        }
+      }
+      &__info{
+        font-family: $lato;
+        color: $brown;
+        margin: calc(180px /2 + 2rem) 1rem 2rem 1rem;
+        text-align: center;
+        font-size: 1rem;
+        @include breakpoint('desktop'){
+          font-size: 1.5vw;
+          text-align: left;
+          margin: 2rem 1rem 2rem calc(135px + 1rem);
+        }
+        &--name{
+          font-weight: 700;
+          letter-spacing: 0.5px;
+          margin-bottom: 0;
+        }
+        &--position{
+          font-weight: 400;
+          letter-spacing: 0.5px;
+          margin-top: 0.25rem;
+        }
+        &--description{
+          font-weight: 400;
+          text-align: left;
+        }
+      }
+      &__email{
+        &:active, &:visited, &:hover, &:link{
+          outline: none;
+          text-decoration: none;
+        }
+        &--icon{
+          position: absolute;
+          height: 30px;
+          width: 30px;
+          top: 40px;
+          right: 45px;
+          @include breakpoint('desktop'){
+            top: 180px;
+            left: 90px;
           }
         }
       }
     }
-    &__bg{
-      background-image: linear-gradient(to bottom left, transparentize($black, 0.5),transparentize($black, 0.4)), url('../assets/contact-bg.jpg');
-      background-size: cover;
-      background-position: center center;
-      position: fixed;
-      height: 100%;
-      width: 100%;
-      z-index: -1;
-      left: 0;
-      top: 0;
-    }
+
   }
 </style>

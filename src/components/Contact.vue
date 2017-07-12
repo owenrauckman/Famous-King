@@ -1,13 +1,44 @@
 <template>
-  <div class="donate fk__donate">
-    <div class="fk__donate__bg"></div>
-    <div class="fk__donate__box">
-      <h2 class="fk__heading fk__heading--light fk__donate__heading">Make a Donation</h2>
-      <p class="fk__donate__box__copy">Famous King is beginning to make an impact and plans to focus full-time creative talent on the task of making God famous. Our goal is to raise over $100k in this first year of operation... we have $10k designated as matching funds already committed to this campaign.</p>
+  <div class="contact fk__contact">
+    <div class="fk__contact__bg"></div>
+    <div class="fk__contact__box">
+      <h2 class="fk__heading fk__heading--light fk__contact__heading">Contact</h2>
+      <p class="fk__contact__box__copy">Famous King's mission is to share who the one true God is to the world and to help make him Famous by using film and creative media.</p>
+      <p class="fk__contact__box__copy">The vision of Famous King is to help make God famous throughout the world by using creative media arts in engaging ways. Such projects would be promotional videos for non-profit organizations who are actively expressing who God is through their existing work, documentaries expressing characteristics of God and how he works with his people, as well as Narrative works of fiction that help express God's characteristics and Truth in the lives of his people.</p>
+      <ul class="fk__contact__social">
+        <li class="fk__contact__social__icon">
+          <a href="https://www.facebook.com/famouskinginc">
+            <img src="../assets/social/facebook.svg"/>
+          </a>
+        </li>
+        <li class="fk__contact__social__icon">
+          <a href="https://www.instagram.com/famouskinginc">
+            <img src="../assets/social/instagram.svg"/>
+          </a>
+        </li>
+        <li class="fk__contact__social__icon">
+          <a href="https://www.twitter.com/famouskinginc">
+            <img src="../assets/social/twitter.svg"/>
+          </a>
+        </li>
+        <li class="fk__contact__social__icon">
+          <a href="https://www.medium.com/famouskinginc">
+            <img src="../assets/social/medium.svg"/>
+          </a>
+        </li>
+        <li class="fk__contact__social__icon">
+          <a href="https://www.vimeo.com/famousking">
+            <img src="../assets/social/vimeo.svg"/>
+          </a>
+        </li>
+      </ul>
     </div>
-    <div class="fk__donate__box fk__donate__box--white">
-      <form class="fk__donate__form">
-        <iframe src="https://donorbox.org/embed/new-beginnings-for-famous-king?recurring=true" height="685px" width="100%" style="max-width:500px; min-width:310px; max-height:none!important" seamless="seamless" id="dbox-form-embed" name="donorbox" frameborder="0" scrolling="no"></iframe>
+    <div class="fk__contact__box fk__contact__box--white">
+      <form class="fk__contact__form">
+        <input class="fk__contact__form__input" type="text" placeholder="Name / Organization">
+        <input class="fk__contact__form__input" type="email" placeholder="Email Address">
+        <textarea class="fk__contact__form__textarea" placeholder="Type your message here..."></textarea>
+        <button class="fk__contact__form__button" type="submit">Send Email</button>
       </form>
     </div>
 
@@ -17,7 +48,7 @@
 
 <script>
 export default {
-  name: 'donate',
+  name: 'contact',
   data () {
     return {
       menuType: 'light'
@@ -36,7 +67,7 @@ export default {
   html, body{
     height: 100%;
   }
-  .fk__donate{
+  .fk__contact{
     position: relative;
     display: flex;
     align-items: flex-start;
@@ -65,7 +96,7 @@ export default {
         box-shadow: 0px 0px 20px transparentize($black, 0.8);
         background: transparentize($white, 0.1);
         border-radius: 10px;
-        padding: 1rem;
+        padding: 2rem;
       }
       &__copy{
         font-weight: 400;
@@ -74,10 +105,6 @@ export default {
         color: $white;
         line-height: 1.2rem;
         font-size: 0.9rem;
-        @include breakpoint('desktop'){
-          font-size: 1.2vw;
-          line-height: 1.5vw;
-        }
       }
     }
     &__heading{
@@ -88,8 +115,7 @@ export default {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      max-width: 400px;
-      margin: 2rem auto;
+      margin: 2rem 0;
       &__input{
         width: 100%;
         max-width: 300px;
@@ -117,24 +143,6 @@ export default {
           border-bottom: solid 2px $yellow;
           font-style: normal;
         }
-        &--amount{
-          font-family: $lato;
-          font-style: italic;
-          font-size: 2rem;
-          color: $yellow;
-          border: none;
-          margin: 0;
-          &::placeholder{
-            color: $yellow;
-            text-transform: uppercase;
-          }
-          &:focus{
-            outline: none;
-            border: none;
-            border-bottom: none;
-            font-style: italic;
-          }
-        }
       }
       &__textarea{
         font-family: $lato;
@@ -142,7 +150,6 @@ export default {
         border: none;
         border-bottom: solid 1px $brown;
         color: $brown;
-        font-size: 0.8rem;
         margin: 2rem 0;
         min-height: 100px;
         font-style: italic;
@@ -188,9 +195,30 @@ export default {
         }
       }
     }
-
+    &__social{
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 2rem 0 0 0;
+      @include breakpoint('desktop'){
+        justify-content: flex-start;
+      }
+      &__icon{
+        height: 50px;
+        width: 50px;
+        margin: 0.5rem 2rem;
+        @include breakpoint('desktop'){
+          margin: 0.5rem 1rem;
+          &:first-child{
+            margin-left: 0;
+          }
+        }
+      }
+    }
     &__bg{
-      background-image: linear-gradient(to bottom left, transparentize($black, 0.5),transparentize($black, 0.4)), url('../assets/donate-bg.jpg');
+      background-image: linear-gradient(to bottom left, transparentize($black, 0.5),transparentize($black, 0.4)), url('../assets/contact-bg.jpg');
       background-size: cover;
       background-position: center center;
       position: fixed;

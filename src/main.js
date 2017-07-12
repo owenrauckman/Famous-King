@@ -12,7 +12,6 @@ global.jQuery = require('jquery');
 var $ = global.jQuery;
 window.$ = $;
 
-
 Vue.config.productionTip = false
 
 // ----- Initialize Vuex Store -----
@@ -34,5 +33,5 @@ new Vue({
   router,
   store,
   template: '<App/>',
-  components: { App }
+  components: { App },
 })

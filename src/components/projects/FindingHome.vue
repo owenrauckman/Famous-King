@@ -12,6 +12,7 @@
     <div class="fk__project__description">
       <p>No child deserves to be trafficked. No child deserves to be sexually exploited. Rapha House’s vision is to see children living safely in communities without the threats of trafficking and sexual exploitation.</p>
       <p>Finding Home is a gripping documentary following the lives of three young Cambodian women who were victims of sex trafficking at a young age. Through three years of filming their post trafficking experiences, the film allows these young women to reveal their stories with dignity. The viewer will see the devastation and heartache of these tragic stories, but will also experience hope and joy as they journey with these young women on a path from victim to survivor. Finding Home reminds us that we are all connected in our humanity; that we are all looking for a place of love, acceptance and community. A place called home.</p>
+      <p>*This project was done under the name Flying Treasure which is creative lead Derek Hammeke's company.  The Rapha House organization plans to continue work with Famous King in the future.</p>
     </div>
 
 
@@ -95,14 +96,14 @@ export default {
         $('.fk__project__cover').height(coverHeight + 80);
         $('.fk__project__info__poster').css('top',$('.fk__project__info__details').offset().top - 50);
         // position the project description
-        $('.fk__project__description').css('top', $('.fk__project__info__poster').offset().top + $('.fk__project__info__poster').outerHeight() + 32 +'px');
+        $('.fk__project__description').css('top', $('.fk__project__info__poster').offset().top + $('.fk__project__info__poster').outerHeight() + 32 + 'px');
 
       }
       else{
         $('.fk__project__cover').height(coverHeight);
         $('.fk__project__info__poster').css('top','0px');
         // position the project description
-        $('.fk__project__description').css('top', $('.fk__project__cover').offset().top + $('.fk__project__cover').outerHeight() + 32 +'px');
+        $('.fk__project__description').css('top', $('.fk__project__cover').offset().top + $('.fk__project__cover').outerHeight() + 32 + 'px');
       }
       // decide where to start the content (ew, gross soluton, but okay)
       $('.fk__project__content').css('top', $('.fk__project__description').offset().top + $('.fk__project__description').outerHeight() + 'px');
@@ -216,7 +217,7 @@ export default {
       line-height: 1.4rem;
       padding: 1rem;
       left: 0;
-      max-width: 500px;
+      max-width: 1000px;
       @include breakpoint('phone'){
         padding: 2rem;
         left: calc(200px + 3rem);
@@ -257,6 +258,7 @@ export default {
           position: relative;
           display: flex;
           flex-direction: column;
+          max-width: 1024px;
           @include breakpoint('tablet'){
             flex-direction: row;
           }

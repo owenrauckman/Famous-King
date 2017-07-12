@@ -42,10 +42,10 @@
       <svg class="fk__navigation__nav__arrow" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5"><path d="M12.664 31.332L50 68.67 87.34 31.33" fill="none" stroke="#fff" stroke-width="16.38627"/></svg>
       <ul>
         <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/projects">Projects</router-link></li>
-        <li><router-link to="/team">Team</router-link></li>
-        <li><router-link to="/donate">Donate</router-link></li>
         <li><router-link to="/mission">Mission</router-link></li>
+        <li><router-link to="/projects">Projects</router-link></li>
+        <li><router-link to="/donate">Donate</router-link></li>
+        <li><router-link to="/contact">Contact</router-link></li>
       </ul>
     </nav>
   </div>
@@ -91,8 +91,8 @@ export default {
           this.darkMenu = true;
           this.fixedMenu = false;
           break;
-        case '/team':
-          this.pageName = 'Team';
+        case '/mission':
+          this.pageName = 'Mission';
           this.darkMenu = true;
           this.fixedMenu = false;
           break;
@@ -101,15 +101,15 @@ export default {
           this.darkMenu = false;
           this.fixedMenu = false;
           break;
-        case '/mission':
-          this.pageName = 'Mission';
+        case '/contact':
+          this.pageName = 'Contact';
           this.darkMenu = false;
           this.fixedMenu = false;
           break;
         default:
           this.pageName = 'Projects';
           this.darkMenu = false;
-          this.fixedMenu = true;
+          this.fixedMenu = false;
           break;
       }
     }
@@ -122,6 +122,10 @@ export default {
   @import "../assets/global.scss";
   .fk{
     &__navigation{
+      font-size: 1rem;
+      @include breakpoint('desktop'){
+        font-size: 1.4vw;
+      }
       position: relative;
       height: 80px;
       width: calc(100% - 2rem);
@@ -141,9 +145,15 @@ export default {
         width: calc(100% - 8rem);
         padding: 1rem 4rem;
       }
+      @include breakpoint('desktop'){
+        height: 8vw;
+      }
       &__logo{
-        height: 50px;
         width: auto;
+        height: 50px;
+        @include breakpoint('desktop'){
+          height: 4.5vw;
+        }
         &__letter{
           fill: $white;
         }
@@ -213,9 +223,13 @@ export default {
         }
         &__arrow{
           margin-left: 0.5rem;
+          transition: transform 0.15s ease-in;
           height: 15px;
           width: 15px;
-          transition: transform 0.15s ease-in;
+          @include breakpoint('desktop'){
+            height: 1vw;
+            width: 1vw;
+          }
           &:hover{
             cursor: pointer;
           }
