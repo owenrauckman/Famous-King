@@ -12,22 +12,22 @@
           </a>
         </li>
         <li class="fk__contact__social__icon">
-          <a href="https://www.instagram.com/famouskinginc">
+          <a href="https://www.instagram.com/famouskingmedia">
             <img src="../assets/social/instagram.svg"/>
           </a>
         </li>
         <li class="fk__contact__social__icon">
-          <a href="https://www.twitter.com/famouskinginc">
+          <a href="https://twitter.com/famouskingmedia">
             <img src="../assets/social/twitter.svg"/>
           </a>
         </li>
         <li class="fk__contact__social__icon">
-          <a href="https://www.medium.com/famouskinginc">
+          <a href="https://medium.com/@famousking">
             <img src="../assets/social/medium.svg"/>
           </a>
         </li>
         <li class="fk__contact__social__icon">
-          <a href="https://www.vimeo.com/famousking">
+          <a href="https://vimeo.com/famousking">
             <img src="../assets/social/vimeo.svg"/>
           </a>
         </li>
@@ -105,6 +105,10 @@ export default {
         color: $white;
         line-height: 1.2rem;
         font-size: 0.9rem;
+        @include breakpoint('desktop'){
+          font-size: 1.25vw;
+          line-height: 1.75vw;
+        }
       }
     }
     &__heading{
@@ -131,7 +135,9 @@ export default {
         font-size: 16px;
         border-radius: 0;
         @include breakpoint('desktop'){
-          font-size: 0.9rem;
+          font-size: 1.25vw;
+          line-height: 1.75vw;
+          max-width: 500px;
         }
         &::placeholder{
           color: transparentize($brown, 0.5);
@@ -158,6 +164,7 @@ export default {
         border-radius: 0;
         @include breakpoint('desktop'){
           font-size: 0.9rem;
+          font-size: 1vw;
         }
         &::placeholder{
           text-transform: uppercase;
@@ -193,6 +200,10 @@ export default {
           cursor: pointer;
           box-shadow: 0px 0px 20px transparentize($black, 0.9);
         }
+        @include breakpoint('desktop'){
+          font-size: 1vw;
+          max-width: 300px;
+        }
       }
     }
     &__social{
@@ -210,6 +221,8 @@ export default {
         width: 50px;
         margin: 0.5rem 2rem;
         @include breakpoint('desktop'){
+          height: 4vw;
+          width: 4vw;
           margin: 0.5rem 1rem;
           &:first-child{
             margin-left: 0;

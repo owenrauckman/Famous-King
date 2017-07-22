@@ -192,6 +192,9 @@ export default {
           box-shadow: 0 0 20px transparentize($black, 0.9);
           padding: 1rem;
           border-radius: 5px;
+          @include breakpoint('desktop'){
+            top: 3rem;
+          }
           li, li a:link, li a:visited, li a:active{
             color: $regent-gray;
             text-align: left;

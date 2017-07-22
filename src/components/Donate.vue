@@ -75,8 +75,8 @@ export default {
         line-height: 1.2rem;
         font-size: 0.9rem;
         @include breakpoint('desktop'){
-          font-size: 1.2vw;
-          line-height: 1.5vw;
+          font-size: 1.25vw;
+          line-height: 1.75vw;
         }
       }
     }

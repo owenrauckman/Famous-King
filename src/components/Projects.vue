@@ -100,6 +100,9 @@ export default {
       &:first-child{
         margin: 2rem 2rem 2rem 0;
       }
+      &:last-child{
+        padding-right: 2rem;
+      }
       &__poster{
         height: 300px;
         width: 200px;
@@ -107,6 +110,16 @@ export default {
           height: 30vw;
           width: 20vw;
         }
+        /* this is specifically for tablets */
+        @media screen and (min-width: 540px) and (max-width: 1025px){
+          height: 45vh;
+          width: 30vh;
+        }
+        @media screen and (min-height: 600px) and (max-height: 1366px) and (max-width: 1024px){
+          height: 60vh;
+          width: 40vh;
+        }
+        /* end for tablets */
         border-radius: 10px;
         box-shadow: 0px 0px 20px transparentize($black, 0.8);
         transition: box-shadow 0.2s ease-out;
@@ -118,7 +131,10 @@ export default {
         text-transform: uppercase;
         color: $white;
         letter-spacing: 1px;
-        @include breakpoint('desktop'){
+        @include breakpoint('tablet'){
+          font-size: 1rem;
+        }
+        @media screen and (min-width: 1025px){
           font-size: 1.2vw;
         }
       }

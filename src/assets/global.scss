@@ -21,7 +21,7 @@ html, body{
   @media (min-width: 540px) { @content; }
  }
 @if $point == tablet {
-  @media (min-width: 768px) { @content; }
+  @media (min-width: 769px) { @content; }
  }
  @if $point == desktop {
    @media (min-width: 1024px) { @content; }

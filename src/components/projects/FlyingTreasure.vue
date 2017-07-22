@@ -127,13 +127,13 @@ export default {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      @include breakpoint('phone'){
+      @include breakpoint('tablet'){
         flex-wrap: nowrap;
         justify-content:flex-start;
       }
       &__image{
         width: auto;
-        @include breakpoint('phone'){
+        @include breakpoint('tablet'){
           flex-wrap: nowrap;
           width: 300px;
         }
@@ -144,9 +144,28 @@ export default {
           box-shadow: 0px 0px 20px transparentize($black, 0.8);
         }
       }
+      &__netflix{
+        display: block;
+        border-radius: 5px;
+        margin: 1rem 0;
+        border: solid 1px $brown;
+        text-align: center;
+        font-family: $rubik;
+        text-transform: uppercase;
+        padding: 0.5rem 0;
+        transition: all 0.2s ease-in;
+        &:link, &:visited, &:hover, &:active{
+          text-decoration: none;
+          color: $brown;
+        }
+        &:hover{
+          background: $brown;
+          color: $white;
+        }
+      }
       &__info{
         margin-top: 0;
-        @include breakpoint('phone'){
+        @include breakpoint('tablet'){
           margin-top: 6rem;
         }
         @include breakpoint('desktop'){
@@ -167,7 +186,7 @@ export default {
           margin-bottom: 0.5rem;
           color: $brown;
           text-align: center;
-          @include breakpoint('phone'){
+          @include breakpoint('tablet'){
             margin-top: 0;
             text-align: left;
           }
@@ -184,7 +203,7 @@ export default {
           color: $brown;
           text-align: center;
           margin-bottom: 0.5rem;
-          @include breakpoint('phone'){
+          @include breakpoint('tablet'){
             text-align: left;
             margin-bottom: 1rem;
           }
@@ -200,8 +219,11 @@ export default {
           margin-top: 0;
           color: $brown;
           text-align: center;
-          @include breakpoint('phone'){
+          @include breakpoint('tablet'){
             text-align: left;
+          }
+          @include breakpoint('desktop'){
+            font-size: 1.25vw;
           }
         }
         &__description{
@@ -210,6 +232,10 @@ export default {
           font-style: italic;
           font-size: 0.9rem;
           line-height: 1.4rem;
+          @include breakpoint('desktop'){
+            font-size: 1.25vw;
+            line-height: 1.75vw;
+          }
         }
       }
     }
@@ -237,6 +263,9 @@ export default {
         font-weight: 700;
         margin: 1rem 0 0 0;
         letter-spacing: 0.5px;
+        @include breakpoint('desktop'){
+          font-size: 1.25vw;
+        }
       }
     }
 
@@ -308,7 +337,7 @@ export default {
       &__person{
         position: relative;
         width: 100%;
-        padding: 2rem 0;
+        padding: 2rem 0 0 0;
         background: $white;
         background: url('../../assets/textureBackground.jpg');
         backgorund-size: cover;
@@ -338,11 +367,17 @@ export default {
             font-weight: 700;
             margin: 1rem 0 0 0;
             letter-spacing: 0.5px;
+            @include breakpoint('desktop'){
+              font-size: 1vw;
+            }
           }
           &--title{
             font-weight: 400;
             margin: 0;
             margin-top: 0.25rem;
+            @include breakpoint('desktop'){
+              font-size: 1vw;
+            }
           }
         }
         &--organization{
@@ -382,24 +417,31 @@ export default {
         padding: 2rem;
         @include breakpoint('tablet'){
           width: calc(100% - 350px - 4rem);
+          padding: 5rem 2rem;
         }
         &__heading{
           font-family: $lato;
           font-weight: 900;
           text-transform: uppercase;
           letter-spacing: 2px;
-          max-width: 500px;
+          max-width: 1024px;
           margin-top: 3rem;
           @include breakpoint('tablet'){
             margin-top: 0;
+          }
+          @include breakpoint('desktop'){
+            font-size: 1.25vw;
           }
         }
         &__copy{
           font-family: $rubik;
           font-style: italic;
-          max-width: 500px;
+          max-width: 1024px;
           position: relative;
           margin-left: 3rem;
+          @include breakpoint('desktop'){
+            font-size: 1.25vw;
+          }
           &:before{
             position: absolute;
             content: '"';

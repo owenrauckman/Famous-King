@@ -6,7 +6,7 @@
     <h2 class="fk__heading fk__heading--dark fk__team__heading">Our Mission</h2>
 
     <div class="fk__team__container">
-      <div class="fk__team__info">
+      <div class="fk__team__info fk__team__info--main">
         <p class="fk__team__info__copy">Famous King's mission is to share who the one true God is to the world and to help make him Famous by using film and creative media.</p>
         <p class="fk__team__info__copy">The vision of Famous King is to help make God famous throughout the world by using creative media arts in engaging ways. Such projects would be promotional videos for non-profit organizations who are actively expressing who God is through their existing work, documentaries expressing characteristics of God and how he works with his people, as well as Narrative works of fiction that help express God's characteristics and Truth in the lives of his people.</p>
       </div>
@@ -100,6 +100,12 @@ export default {
       border-radius: 10px;
       width: 100%;
       margin: 2rem 0 0 0;
+      padding: 0.5rem;
+      &--main{
+        @include breakpoint('phone'){
+          padding: 2rem;
+        }
+      }
       @include breakpoint('desktop'){
         margin: 2rem 0;
       }
@@ -109,7 +115,8 @@ export default {
         margin: 2rem;
         font-size: 1rem;
         @include breakpoint('desktop'){
-          font-size: 1.5vw;
+          font-size: 1.25vw;
+          line-height: 1.75vw;
           text-align: left;
         }
       }
@@ -122,7 +129,11 @@ export default {
       box-shadow: 0px 0px 20px transparentize($black, 0.8);
       border-radius: 10px;
       min-height: 300px;
-      @include breakpoint('desktop'){
+      &:last-child{
+        margin-bottom: 2rem;
+      }
+      @media screen and (min-width: 1024px){
+
         width: calc(50% - 3rem);
         &:nth-child(odd){
           margin: 2rem 0rem 2rem 4rem;
@@ -152,8 +163,10 @@ export default {
         margin: calc(180px /2 + 2rem) 1rem 2rem 1rem;
         text-align: center;
         font-size: 1rem;
+        padding: 0 1rem;
         @include breakpoint('desktop'){
-          font-size: 1.5vw;
+          font-size: 1.25vw;
+          line-height: 1.75vw;
           text-align: left;
           margin: 2rem 1rem 2rem calc(135px + 1rem);
         }
