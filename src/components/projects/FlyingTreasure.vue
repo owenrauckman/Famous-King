@@ -154,6 +154,7 @@ export default {
         text-transform: uppercase;
         padding: 0.5rem 0;
         transition: all 0.2s ease-in;
+        width: 200px;
         &:link, &:visited, &:hover, &:active{
           text-decoration: none;
           color: $brown;
@@ -173,7 +174,12 @@ export default {
           margin-top: 8vw;
         }
         &__container{
-          // margin: 0 2rem;
+          @include breakpoint('tablet'){
+            margin: 0 0 0 1rem;
+          }
+          @include breakpoint('desktop'){
+            margin: 0;
+          }
         }
         &__title{
           font-size: 1.5rem;

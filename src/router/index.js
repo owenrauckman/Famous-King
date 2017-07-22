@@ -64,6 +64,11 @@ export default new Router({
       path: '/projects/flying-treasure',
       name: 'flyingTreasure',
       component: FlyingTreasure
+    },
+    {
+      path: '*',
+      name: '404',
+      component: Landing
     }
   ]
 })
