@@ -164,6 +164,7 @@ export default {
         }
       }
       &__info{
+        width: 100%;
         margin-top: 0;
         @include breakpoint('tablet'){
           margin-top: 6rem;
@@ -172,7 +173,7 @@ export default {
           margin-top: 8vw;
         }
         &__container{
-          margin: 0 2rem;
+          // margin: 0 2rem;
         }
         &__title{
           font-size: 1.5rem;
@@ -439,6 +440,7 @@ export default {
           max-width: 1024px;
           position: relative;
           margin-left: 3rem;
+          width: 100%;
           @include breakpoint('desktop'){
             font-size: 1.25vw;
           }
