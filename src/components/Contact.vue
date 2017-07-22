@@ -34,12 +34,14 @@
       </ul>
     </div>
     <div class="fk__contact__box fk__contact__box--white">
-      <form class="fk__contact__form">
-        <input class="fk__contact__form__input" type="text" placeholder="Name / Organization">
-        <input class="fk__contact__form__input" type="email" placeholder="Email Address">
-        <textarea class="fk__contact__form__textarea" placeholder="Type your message here..."></textarea>
+      <!-- todo update this to the production link -->
+      <form id="ajax-contact" class="fk__contact__form" method="post" action="http://dev.famousking.com/email.php">
+        <input id="name" name="name" class="fk__contact__form__input" type="text" autocomplete="off" required placeholder="Name / Organization">
+        <input id="email" name="email"class="fk__contact__form__input" type="email" autocomplete="off" required placeholder="Email Address">
+        <textarea id="message" name="message" class="fk__contact__form__textarea" autocomplete="off" required placeholder="Type your message here..."></textarea>
         <button class="fk__contact__form__button" type="submit">Send Email</button>
       </form>
+      <div id="form-messages"></div>
     </div>
 
     </div>
@@ -56,6 +58,50 @@ export default {
   },
   beforeMount(){
     this.$store.commit('setMenuType', this.menuType);
+  },
+  mounted(){
+    /* Submit the form with AJAX */
+    $(function() {
+      const form = $('#ajax-contact');
+      const formMessages = $('#form-messages');
+
+      $(form).submit(function(event) {
+          event.preventDefault();
+          const formData = $(form).serialize();
+          $.ajax({
+            type: 'POST',
+            url: $(form).attr('action'),
+            data: formData
+          })
+          .done(function(response) {
+            $(formMessages).removeClass('form__error');
+            $(formMessages).addClass('form__success');
+
+            // Set the message text.
+            $(formMessages).text(response);
+
+            // Clear the form.
+            $('#name').val('');
+            $('#email').val('');
+            $('#message').val('');
+        })
+        .fail(function(data) {
+          // Make sure that the formMessages div has the 'error' class.
+          $(formMessages).removeClass('success');
+          $(formMessages).addClass('error');
+
+          // Set the message text.
+          if (data.responseText !== '') {
+              $(formMessages).text(data.responseText);
+          } else {
+              $(formMessages).text('Oops! An error occured and your message could not be sent.');
+          }
+        });
+
+      });
+
+
+    });
   }
 }
 </script>
@@ -66,6 +112,20 @@ export default {
 
   html, body{
     height: 100%;
+  }
+  .form__error{
+    font-family: $rubik;
+    color: $white;
+    background: $brown;
+    border-radius: 5px;
+    padding: 1rem;
+  }
+  .form__success{
+    font-family: $rubik;
+    color: $white;
+    background: $brown;
+    border-radius: 5px;
+    padding: 1rem;
   }
   .fk__contact{
     position: relative;
