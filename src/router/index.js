@@ -10,6 +10,7 @@ import HondurasMinistries from '@/components/projects/HondurasMinistries'
 import MustardSeed from '@/components/projects/MustardSeed'
 import VelvetAshes from '@/components/projects/VelvetAshes'
 import FlyingTreasure from '@/components/projects/FlyingTreasure'
+import ABrightFutureForKids from '@/components/projects/ABrightFutureForKids'
 
 Vue.use(Router)
 
@@ -65,6 +66,11 @@ export default new Router({
       path: '/projects/flying-treasure',
       name: 'flyingTreasure',
       component: FlyingTreasure
+    },
+    {
+      path: '/projects/a-bright-future-for-kids',
+      name: 'aBrightFutureForKids',
+      component: ABrightFutureForKids
     },
     {
       path: '*',

@@ -4,15 +4,15 @@
     <div class="cover"></div>
     <div class="fk__project__top">
       <div class="fk__project__top__image">
-        <img class="fk__project__top__image__img" src="http://via.placeholder.com/200x300"/>
+        <img class="fk__project__top__image__img" src="../../assets/posters/aBrightFutureForKids.jpg"/>
       </div>
       <div class="fk__project__top__info">
         <div class="fk__project__top__info__container">
-          <h2 class="fk__project__top__info__title">Mustard Seed Network</h2>
-          <p class="fk__project__top__info__year">2017</p>
+          <h2 class="fk__project__top__info__title">A Bright Future For Kids</h2>
+          <p class="fk__project__top__info__year">2016-2017</p>
           <p class="fk__project__top__info__details">Promotional</p>
           <div class="fk__project__top__info__description">
-            <p>Mustard Seed Network exists to glorify God by making disciples through planting gospel-centered churches in urban Japan.    To see the cities of Japan saturated with and impacted by gospel-centered churches that further the global cause of Jesus Christ.  Their goal is to recruit and train church planters, catalyze church plants, and support church planters and church plants.</p>
+            <p>A Bright Future for Kids targets the core causes of poverty by embracing a holistic approach for lasting transformation that secures a bright future for underprivileged communities.  Their outreach team in Ethiopia and in kenya are currently working with families in an effort to change their current situations to provide pathways to success. This ranges from providing school supplies for kids to helping parents build a small business that will provide for their families through the Small scale business venture.</p>
           </div>
         </div>
       </div>
@@ -33,16 +33,20 @@
     <div class="fk__project__testimonial">
       <div class="fk__project__testimonial__person">
         <div class="fk__project__testimonial__person__info">
-          <img class="fk__project__testimonial__person__info--photo" src="../../assets/projects/mustard-seed/mustardSeedTestimonial.jpg"/>
-          <h3 class="fk__project__testimonial__person__info--name">Jay Greer</h3>
-          <h3 class="fk__project__testimonial__person__info--title">Pastor at Mustard Seed Christian Church Osaka</h3>
-          <h3 class="fk__project__testimonial__person__info--title">President of Mustard Seed Network</h3>
+          <img class="fk__project__testimonial__person__info--photo" src="../../assets/projects/a-bright-future-for-kids/aBrightFutureForKidsTestimonial.jpg"/>
+          <h3 class="fk__project__testimonial__person__info--name">Solomon Dabe</h3>
+          <h3 class="fk__project__testimonial__person__info--title">Founder of A Bright Future For Kids</h3>
         </div>
 
       </div>
       <div class="fk__project__testimonial__quote">
         <h3 class="fk__project__testimonial__quote__heading">Client Testimonial</h3>
-        <p class="fk__project__testimonial__quote__copy">Famous King has blessed our ministry with high-quality videos that we wouldn't have been able to afford without the amazing financial partnership program of Famous King. Having seen Derek's work in the past I knew we would get a fantastic, professional product. However, I was further impressed by the way Derek came and learned our ministry. He represented us, our vision, our values, and our mission in a way that captured the heart of what we do. We're thankful for the impact Famous King has made both in our target group in Japan and on our supporters around the world.</p>
+        <p class="fk__project__testimonial__quote__copy">Derek & I knew one another way back before even we though we are going to be traveling to Kenya , organizations whose common purpose is to do kingdom work , according to our callings.
+Here is my personal experience of our together trip to Kenya .
+Derek and I had spend at least 2 hours of an uninterrupted discussion on how we were called into what we do  . Traveling with Derek was more than filming ; for me it was being sent to do  for kingdom work . Derek has been an encourager but also challenger . Spending ten days in Kenya , gave us great opportunity to know one another in a deeper level & get connected . Serving God in was what I experienced from Derek . Derek have passionately served & performed an exlecelkent work through his filming!
+        </br></br>The impacts of his edited videos have just started , I believe these videos will give us a ways of exposing the dark places inways & bring powerful massages .
+God has crossed our paths with Kent & Derek way before  the enception of Famous King .
+has crossed our path has greater purpose , I thank  God ; grateful  for coming alongside of ABF4K & making such great videos!!</p>
       </div>
     </div>
 
@@ -58,24 +62,19 @@ export default {
     return {
       menuType: 'dark',
       videos: [
-        {
-          name: 'Mustard Seed Network Promotional',
-          link: 'https://player.vimeo.com/video/221628499',
-          active: true,
-        },
-        {
-          name: 'Mustard Seed Kobe Church',
-          link: 'https://player.vimeo.com/video/221638245',
-          active: false,
-        },
         // {
-        //   name: 'Mustard Seed Osaka Church',
-        //   link: '',
+        //   name: 'Velvet Ashes 2017 Retreat Promo',
+        //   link: 'https://player.vimeo.com/video/218060178',
+        //   active: true,
+        // },
+        // {
+        //   name: 'Velvet Ashes Donation Promo',
+        //   link: 'https://player.vimeo.com/video/218057383',
         //   active: false,
         // },
         // {
-        //   name: 'Mustard Seed Nagoya Church',
-        //   link: '',
+        //   name: 'Velvet Ashes - A Night at the Grove',
+        //   link: 'https://player.vimeo.com/video/221778065',
         //   active: false,
         // },
       ]
@@ -95,7 +94,7 @@ export default {
     z-index: -2;
   }
   .cover{
-    background-image: linear-gradient(to bottom left, transparentize($black, 0.4),transparentize($black, 0.5)), url('../../assets/projects/mustard-seed/cover.jpg');
+    background-image: linear-gradient(to bottom left, transparentize($black, 0.4),transparentize($black, 0.5)), url('../../assets/projects/velvet-ashes/cover.jpg');
     background-size: cover;
     background-position: top;
     height: 188px; //300px (height of poster) - header height

@@ -5,7 +5,9 @@
     <div class="fk__project__top">
       <div class="fk__project__top__image">
         <img class="fk__project__top__image__img" src="../../assets/posters/findingHome.jpg"/>
-        <a class="fk__project__top__netflix" href="https://www.netflix.com/title/80109146">Netflix</a>
+        <a class="fk__project__top__netflix" href="https://www.netflix.com/title/80109146">
+          <img class="fk__project__top__netflix__image" src="../../assets/now-on-netflix.png"/>
+        </a>
       </div>
       <div class="fk__project__top__info">
         <div class="fk__project__top__info__container">
@@ -32,7 +34,11 @@
       </div>
     </div>
 
-    <div class="fk__project__testimonial">
+    <a href="https://www.netflix.com/title/80109146">
+      <img class="fk__project__netflix-banner" src="../../assets/large-netflix.png"/>
+    </a>
+
+    <!-- <div class="fk__project__testimonial">
       <div class="fk__project__testimonial__person">
         <div class="fk__project__testimonial__person__info">
           <img class="fk__project__testimonial__person__info--photo" src="../../assets/team/kent.jpg"/>
@@ -45,7 +51,7 @@
         <h3 class="fk__project__testimonial__quote__heading">Client Testimonial</h3>
         <p class="fk__project__testimonial__quote__copy">Finding Home is a unique documentary about trafficking, as the stories go far beyond the actual trafficking experiences. Finding Home shows in depth the struggle, growth, and challenges that come with trying to pick a life back up after it has been</p>
       </div>
-    </div>
+    </div> -->
 
   </div>
 </template>
@@ -83,7 +89,7 @@ export default {
 }
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss" >
+<style lang="scss" scoped>
   @import "../../assets/global.scss";
   .bg{
     position: fixed;
@@ -140,20 +146,22 @@ export default {
         display: block;
         border-radius: 5px;
         margin: 1rem 0;
-        border: solid 1px $brown;
+        border: solid 1px #ED1C24;
         text-align: center;
         font-family: $rubik;
         text-transform: uppercase;
         padding: 0.5rem 0;
-        transition: all 0.2s ease-in;
         width: 200px;
         &:link, &:visited, &:hover, &:active{
           text-decoration: none;
-          color: $brown;
         }
         &:hover{
-          background: $brown;
+          background: darken($white, 5%) !important;
           color: $white;
+        }
+        &__image{
+          width: 100px;
+          height: auto;
         }
       }
       &__info{
@@ -455,6 +463,10 @@ export default {
         }
       }
     }
-
+    &__netflix-banner{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
   }
 </style>

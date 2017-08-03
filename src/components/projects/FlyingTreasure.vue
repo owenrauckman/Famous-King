@@ -91,7 +91,7 @@ export default {
 }
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss" >
+<style lang="scss" scoped>
   @import "../../assets/global.scss";
   .bg{
     position: fixed;
@@ -99,7 +99,7 @@ export default {
     z-index: -2;
   }
   .cover{
-    background-image: linear-gradient(to bottom left, transparentize($black, 0.4),transparentize($black, 0.5)), url('../../assets/projects/finding-home/cover.jpg');
+    background-image: linear-gradient(to bottom left, transparentize($black, 0.4),transparentize($black, 0.5)), url('../../assets/projects/flying-treasure/cover.jpg');
     background-size: cover;
     background-position: top;
     height: 188px; //300px (height of poster) - header height
