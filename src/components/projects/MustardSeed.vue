@@ -251,6 +251,7 @@ export default {
     &__video{
       width: 100%;
       padding: 2rem 0;
+      margin: 0 auto;
       @include breakpoint('tablet'){
         width: calc(50% - 2rem);
         &:nth-child(odd){

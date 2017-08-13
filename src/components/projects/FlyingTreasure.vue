@@ -26,6 +26,7 @@
             <iframe :src="video.link + '?title=0&byline=0&portrait=0'" frameborder="0" rameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
           </div>
           <p class="fk__project__video__title">{{video.name}}</p>
+          <p v-if="video.credit" class="fk__project__video__credit">{{video.credit}}</p>
         </div>
       </div>
     </div>
@@ -59,27 +60,32 @@ export default {
       videos: [
         {
           name: 'CIY - Aullido - Short Narrative Film',
+          credit: 'Trailer and Film Edit',
           link: 'https://player.vimeo.com/video/128621690',
           active: true,
         },
         {
           name: 'Christ in Youth - Ruby - Short Documentary Film',
           link: 'https://player.vimeo.com/video/98465957',
+          credit: 'Trailer and Film Edit',
           active: false,
         },
         {
           name: 'Christ in Youth - Unseen - Short Narrative Film',
           link: 'https://player.vimeo.com/video/219902386',
+          credit: 'Credit - Film Edit',
           active: false,
         },
         {
           name: 'First Church Verdigris - Promotional',
           link: 'https://player.vimeo.com/video/138999597',
+          credit: 'Credit - Creator',
           active: false,
         },
         {
           name: 'First Church - Wes - Testimony',
           link: 'https://player.vimeo.com/video/124335519',
+          credit: 'Credit - Creator',
           active: false,
         },
       ]
@@ -255,6 +261,7 @@ export default {
     &__video{
       width: 100%;
       padding: 2rem 0;
+      margin: 0 auto;
       @include breakpoint('tablet'){
         width: calc(50% - 2rem);
         &:nth-child(odd){
@@ -269,6 +276,16 @@ export default {
         color: $brown;
         font-weight: 700;
         margin: 1rem 0 0 0;
+        letter-spacing: 0.5px;
+        @include breakpoint('desktop'){
+          font-size: 1.25vw;
+        }
+      }
+      &__credit{
+        font-family: $lato;
+        color: $brown;
+        font-weight: 300;
+        margin: 0;
         letter-spacing: 0.5px;
         @include breakpoint('desktop'){
           font-size: 1.25vw;
