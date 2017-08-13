@@ -101,7 +101,7 @@ export default {
   .cover{
     background-image: linear-gradient(to bottom left, transparentize($black, 0.4),transparentize($black, 0.5)), url('../../assets/projects/flying-treasure/cover.jpg');
     background-size: cover;
-    background-position: top;
+    background-position: center;
     height: 188px; //300px (height of poster) - header height
     width: 100%;
     position: absolute;
