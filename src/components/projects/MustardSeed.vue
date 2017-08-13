@@ -68,16 +68,16 @@ export default {
           link: 'https://player.vimeo.com/video/221638245',
           active: false,
         },
-        // {
-        //   name: 'Mustard Seed Osaka Church',
-        //   link: '',
-        //   active: false,
-        // },
-        // {
-        //   name: 'Mustard Seed Nagoya Church',
-        //   link: '',
-        //   active: false,
-        // },
+        {
+          name: 'Mustard Seed Network Nagoya',
+          link: 'https://player.vimeo.com/video/228287118',
+          active: false,
+        },
+        {
+          name: 'Mustard Seed Network Osaka',
+          link: 'https://player.vimeo.com/video/228287249',
+          active: false,
+        },
       ]
     }
   },

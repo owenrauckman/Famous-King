@@ -62,21 +62,26 @@ export default {
     return {
       menuType: 'dark',
       videos: [
-        // {
-        //   name: 'Velvet Ashes 2017 Retreat Promo',
-        //   link: 'https://player.vimeo.com/video/218060178',
-        //   active: true,
-        // },
-        // {
-        //   name: 'Velvet Ashes Donation Promo',
-        //   link: 'https://player.vimeo.com/video/218057383',
-        //   active: false,
-        // },
-        // {
-        //   name: 'Velvet Ashes - A Night at the Grove',
-        //   link: 'https://player.vimeo.com/video/221778065',
-        //   active: false,
-        // },
+        {
+          name: 'A Bright Future for Kids',
+          link: 'https://player.vimeo.com/video/228287489',
+          active: true,
+        },
+        {
+          name: 'A Bright Future for Kids - Mama Daniel',
+          link: 'https://player.vimeo.com/video/218064524',
+          active: false,
+        },
+        {
+          name: 'A Bright Future for Kids - Momma Ester',
+          link: 'https://player.vimeo.com/video/228283874',
+          active: false,
+        },
+        {
+          name: 'A Bright Future for Kids - Momma Rose',
+          link: 'https://player.vimeo.com/video/228286126',
+          active: false,
+        },
       ]
     }
   },

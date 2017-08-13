@@ -5,6 +5,9 @@
       <h2 class="fk__heading fk__heading--light fk__contact__heading">Contact</h2>
       <p class="fk__contact__box__copy">Famous King's mission is to share who the one true God is to the world and to help make him Famous by using film and creative media.</p>
       <p class="fk__contact__box__copy">The vision of Famous King is to help make God famous throughout the world by using creative media arts in engaging ways. Such projects would be promotional videos for non-profit organizations who are actively expressing who God is through their existing work, documentaries expressing characteristics of God and how he works with his people, as well as Narrative works of fiction that help express God's characteristics and Truth in the lives of his people.</p>
+      <p class="fk__contact__box__copy">If you have or know of an organization that would be interested in our services we would love to hear from you.</p>
+      <p class="fk__contact__box__copy">"For just as each of us has one body with many members, and these members do not all have the same function, so in Christ we, though many, form one body, and each member belongs to all the others."</p>
+      <p class="fk__contact__box__copy">Romans 12:4-5</p>
       <ul class="fk__contact__social">
         <li class="fk__contact__social__icon">
           <a href="https://www.facebook.com/famouskinginc">
