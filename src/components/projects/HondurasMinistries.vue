@@ -421,7 +421,8 @@ export default {
           }
         }
         &__copy{
-          font-family: $rubik;
+          font-weight: 400;
+          font-family: "Lato", Helvetica, Arial, sans-serif;
           font-style: italic;
           max-width: 1024px;
           position: relative;

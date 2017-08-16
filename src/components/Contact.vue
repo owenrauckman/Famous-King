@@ -163,7 +163,7 @@ export default {
       }
       &__copy{
         font-weight: 400;
-        font-family: $rubik;
+        font-family: "Lato", Helvetica, Arial, sans-serif;
         font-style: italic;
         color: $white;
         line-height: 1.2rem;
