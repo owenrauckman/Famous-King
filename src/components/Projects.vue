@@ -189,6 +189,11 @@ export default {
         border-radius: 10px;
         box-shadow: 0px 0px 20px transparentize($black, 0.8);
         transition: box-shadow 0.2s ease-out;
+
+        /* only the last one needs this padding */
+        &:last-child{
+          margin-right: 2rem !important;
+        }
       }
       &__title{
         font-size: 0.9rem;

@@ -41,12 +41,8 @@
       </div>
       <div class="fk__project__testimonial__quote">
         <h3 class="fk__project__testimonial__quote__heading">Client Testimonial</h3>
-        <p class="fk__project__testimonial__quote__copy">Derek & I knew one another way back before even we though we are going to be traveling to Kenya , organizations whose common purpose is to do kingdom work , according to our callings.
-Here is my personal experience of our together trip to Kenya .
-Derek and I had spend at least 2 hours of an uninterrupted discussion on how we were called into what we do  . Traveling with Derek was more than filming ; for me it was being sent to do  for kingdom work . Derek has been an encourager but also challenger . Spending ten days in Kenya , gave us great opportunity to know one another in a deeper level & get connected . Serving God in was what I experienced from Derek . Derek have passionately served & performed an exlecelkent work through his filming!
-        </br></br>The impacts of his edited videos have just started , I believe these videos will give us a ways of exposing the dark places inways & bring powerful massages .
-God has crossed our paths with Kent & Derek way before  the enception of Famous King .
-has crossed our path has greater purpose , I thank  God ; grateful  for coming alongside of ABF4K & making such great videos!!</p>
+        <p class="fk__project__testimonial__quote__copy">Traveling with Derek was more than filming; for me it was being sent to do kingdom work along side a brother in Christ.  During the whole video production process Derek took much time to have lengthy discussions on not only the project for him to understand the whole story of the organization and to try to understand every detail.  Derek serves passionately, gives his everything, and performed excellent work for our organization that has been much needed.
+        </br></br>The impact of the final videos has just begun for us, but I believe these videos that Famous King has provided for us will give a way of exposing the dark places in the areas we work and bring a powerful message.  God for sure crossed our paths for a reason.  I thank God and am grateful for Famous King to come along side of ABF4K.  We would not have been able to videos or videos of such quality otherwise.</p>
       </div>
     </div>
 
@@ -99,7 +95,7 @@ export default {
     z-index: -2;
   }
   .cover{
-    background-image: linear-gradient(to bottom left, transparentize($black, 0.4),transparentize($black, 0.5)), url('../../assets/projects/velvet-ashes/cover.jpg');
+    background-image: linear-gradient(to bottom left, transparentize($black, 0.4),transparentize($black, 0.5)), url('../../assets/projects/a-bright-future-for-kids/cover.jpg');
     background-size: cover;
     background-position: top;
     height: 188px; //300px (height of poster) - header height

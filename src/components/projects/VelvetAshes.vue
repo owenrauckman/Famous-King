@@ -12,7 +12,7 @@
           <p class="fk__project__top__info__year">2016-2017</p>
           <p class="fk__project__top__info__details">Promotional - Retreat Content</p>
           <div class="fk__project__top__info__description">
-            <p>We are an online community of women serving overseas.  Velvet Ashes is here to connect the hearts of women who are separated by geography but bound together by the life of serving overseas.  It’s a place where we can link arms with one another and grab hold of the promise of Him who said, “I will give you a full life in the {seemingly} emptiest of places.” (Isaiah 58:11)</p>
+            <p>Velvet Ashes is an online community of women serving overseas.  Velvet Ashes exists to connect the hearts of women who are separated by geography but bound together by the life of serving overseas.  It’s a place where we can link arms with one another and grab hold of the promise of Him who said, “I will give you a full life in the {seemingly} emptiest of places.” (Isaiah 58:11)</p>
           </div>
         </div>
       </div>
