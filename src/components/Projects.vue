@@ -12,7 +12,7 @@
         <h3 class="fk__projects__project__title">Finding Home</h3>
       </router-link>
       <router-link to="/projects/mustard-seed" class="fk__projects__project">
-        <img class="fk__projects__project__poster" src="../assets/posters/placeholder.jpg"/>
+        <img class="fk__projects__project__poster" src="../assets/posters/mustardSeed.jpg"/>
         <h3 class="fk__projects__project__title">Mustard Seed</h3>
       </router-link>
       <router-link to="/projects/honduras-ministries" class="fk__projects__project">

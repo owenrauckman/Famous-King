@@ -4,7 +4,7 @@
     <div class="cover"></div>
     <div class="fk__project__top">
       <div class="fk__project__top__image">
-        <img class="fk__project__top__image__img" src="http://via.placeholder.com/200x300"/>
+        <img class="fk__project__top__image__img" src="../../assets/posters/mustardSeed.jpg"/>
       </div>
       <div class="fk__project__top__info">
         <div class="fk__project__top__info__container">
@@ -64,7 +64,7 @@ export default {
           active: true,
         },
         {
-          name: 'Mustard Seed Kobe Church',
+          name: 'Mustard Seed Network Kobe',
           link: 'https://player.vimeo.com/video/221638245',
           active: false,
         },
@@ -77,6 +77,11 @@ export default {
           name: 'Mustard Seed Network Osaka',
           link: 'https://player.vimeo.com/video/228287249',
           active: false,
+        },
+        {
+          name: 'Mustard Seed Network Kyoto',
+          link: 'https://player.vimeo.com/video/230452612',
+          active: true,
         },
       ]
     }

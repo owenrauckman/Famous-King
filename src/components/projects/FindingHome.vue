@@ -76,7 +76,7 @@ export default {
           active: false,
         },
         {
-          name: 'Finding Home - Kids Casin',
+          name: 'Finding Home - Kid’s Casinos',
           link: 'https://player.vimeo.com/video/92744492',
           active: false,
         },

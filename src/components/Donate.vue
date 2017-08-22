@@ -5,6 +5,7 @@
       <h2 class="fk__heading fk__heading--light fk__donate__heading">Make a Donation</h2>
       <p class="fk__donate__box__copy">Famous King is beginning to make an impact and plans to focus full-time creative talent on the task of making God famous. Our goal is to raise over $100k in this first year of operation... we have $10k designated as matching funds already committed to this campaign.</p>
       <p class="fk__donate__box__copy">Famous King is just getting started.  Famous King has multiple projects in the the pipeline waiting to get created.  One such project is a short documentary on the Mustard Seed organization that is presented in our project page.  The short doc will focus on the importance of getting church leaders into Japan and church multiplication within Japan.  The project has already been shot and the cost for post-production is needed.</p>
+      <p class="fk__donate__box__copy">Famous King is a fully qualified 501(c)(3) organization and therefore your donation is fully tax deductible.</p>
     </div>
     <div class="fk__donate__box fk__donate__box--white">
       <form class="fk__donate__form">
