@@ -4,7 +4,7 @@
     <div class="cover"></div>
     <div class="fk__project__top">
       <div class="fk__project__top__image">
-        <img class="fk__project__top__image__img" src="http://via.placeholder.com/200x300"/>
+        <img class="fk__project__top__image__img" src="../../assets/posters/velvetAshes.jpg"/>
       </div>
       <div class="fk__project__top__info">
         <div class="fk__project__top__info__container">

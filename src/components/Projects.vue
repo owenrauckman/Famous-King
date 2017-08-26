@@ -28,7 +28,7 @@
         <h3 class="fk__projects__project__title">A Bright Future For Kids</h3>
       </router-link>
       <router-link to="/projects/velvet-ashes" class="fk__projects__project">
-        <img class="fk__projects__project__poster" src="../assets/posters/placeholder.jpg"/>
+        <img class="fk__projects__project__poster" src="../assets/posters/velvetAshes.jpg"/>
         <h3 class="fk__projects__project__title">Velvet Ashes</h3>
       </router-link>
       <!-- prev/next arrows -->
