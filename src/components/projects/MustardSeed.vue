@@ -83,6 +83,11 @@ export default {
           link: 'https://player.vimeo.com/video/230452612',
           active: true,
         },
+        {
+          name: 'Mustard Seed - Osaka Building',
+          link: 'https://player.vimeo.com/video/231712916',
+          active: true,
+        },
       ]
     }
   },

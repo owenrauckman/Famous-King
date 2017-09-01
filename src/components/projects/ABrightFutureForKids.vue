@@ -12,7 +12,7 @@
           <p class="fk__project__top__info__year">2016-2017</p>
           <p class="fk__project__top__info__details">Promotional</p>
           <div class="fk__project__top__info__description">
-            <p>A Bright Future for Kids targets the core causes of poverty by embracing a holistic approach for lasting transformation that secures a bright future for underprivileged communities.  Their outreach team in Ethiopia and in Kenya are currently working with families in an effort to change their current situations to provide pathways to success. This ranges from providing school supplies for kids to helping parents build a small business that will provide for their families through the Small scale business venture.</p>
+            <p>A Bright Future for Kids targets the core causes of poverty by embracing a holistic approach for lasting transformation that secures a bright future for underprivileged communities.  Their outreach team in Ethiopia and in Kenya are currently working with families in an effort to change their current situations to provide pathways to success. This ranges from providing school supplies for kids to helping parents build a small business that will provide for their families through the small scale business venture.</p>
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@
           <p class="fk__project__top__info__year">2014-2017</p>
           <p class="fk__project__top__info__details">Promotional/Mini-Documentary</p>
           <div class="fk__project__top__info__description">
-            <p>Flying Treasure is a for profit company ran by Derek Hammeke, the creative lead of Famous King.  Derek has been working for many years doing various video production projects for his company.  Many of these projects are ministry based projects where he works with churches, para-church organizations and other non-profits that are pursing to make Jesus famous.</p>
+            <p>Flying Treasure is a for profit company owned by Derek Hammeke, the creative lead of Famous King.  Derek has been working for many years doing various video production projects for his company.  Many of these projects are ministry based projects where he works with churches, para-church organizations and other non-profits that are pursuing to make Jesus famous.</p>
           </div>
         </div>
       </div>
